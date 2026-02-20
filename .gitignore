@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+bin/
+.vscode/
+*.launch
+
+# Forge
+run/
+logs/
+eclipse/
+
+# OS
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
+# Old JAR files
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

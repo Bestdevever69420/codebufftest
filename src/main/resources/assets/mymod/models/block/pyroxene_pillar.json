@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "mymod:blocks/pyroxene_pillar_top",
+        "side": "mymod:blocks/pyroxene_pillar_side"
+    }
+}

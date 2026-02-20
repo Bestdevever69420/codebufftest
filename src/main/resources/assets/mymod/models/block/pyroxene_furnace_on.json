@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "mymod:blocks/pyroxene_furnace_top",
+        "front": "mymod:blocks/pyroxene_furnace_front_on",
+        "side": "mymod:blocks/pyroxene_furnace_side"
+    }
+}

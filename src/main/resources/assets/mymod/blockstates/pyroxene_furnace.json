@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mymod:pyroxene_furnace" },
+        "facing=south": { "model": "mymod:pyroxene_furnace", "y": 180 },
+        "facing=west":  { "model": "mymod:pyroxene_furnace", "y": 270 },
+        "facing=east":  { "model": "mymod:pyroxene_furnace", "y": 90 }
+    }
+}

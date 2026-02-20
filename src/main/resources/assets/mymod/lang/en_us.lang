@@ -1,0 +1,24 @@
+item.mymod.pyroxene_ingot.name=Pyroxene Ingot
+item.mymod.pyroxene_nugget.name=Pyroxene Nugget
+item.mymod.pyroxene_pickaxe.name=Pyroxene Pickaxe
+item.mymod.pyroxene_axe.name=Pyroxene Axe
+item.mymod.pyroxene_sword.name=Pyroxene Sword
+item.mymod.pyroxene_shovel.name=Pyroxene Shovel
+item.mymod.pyroxene_hoe.name=Pyroxene Hoe
+item.mymod.pyroxene_helmet.name=Pyroxene Helmet
+item.mymod.pyroxene_chestplate.name=Pyroxene Chestplate
+item.mymod.pyroxene_leggings.name=Pyroxene Leggings
+item.mymod.pyroxene_boots.name=Pyroxene Boots
+
+tile.mymod.pyroxene_block.name=Pyroxene Block
+tile.mymod.pyroxene_ore.name=Pyroxene Ore
+tile.mymod.pyroxene_bricks.name=Pyroxene Bricks
+tile.mymod.pyroxene_pillar.name=Pyroxene Pillar
+tile.mymod.pyroxene_slab.name=Pyroxene Slab
+tile.mymod.pyroxene_stairs.name=Pyroxene Stairs
+tile.mymod.pyroxene_lamp.name=Pyroxene Lamp
+tile.mymod.pyroxene_furnace.name=Pyroxene Furnace
+tile.mymod.pyroxene_furnace_on.name=Pyroxene Furnace
+
+# Creative tab
+itemGroup.mymod=Pyroxene

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "mymod:pyroxene_pillar" },
+        "axis=z": { "model": "mymod:pyroxene_pillar", "x": 90 },
+        "axis=x": { "model": "mymod:pyroxene_pillar", "x": 90, "y": 90 }
+    }
+}

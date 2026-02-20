@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "mymod:items/pyroxene_axe"
+    }
+}
+

@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "mymod:blocks/pyroxene_block",
+        "top": "mymod:blocks/pyroxene_block",
+        "side": "mymod:blocks/pyroxene_block"
+    }
+}

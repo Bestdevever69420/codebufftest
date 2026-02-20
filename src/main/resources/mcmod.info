@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mymod",
+  "name": "My Mod",
+  "description": "Adds Pyroxene material pack with ore generation, tools, armor, and crafting recipes. Pyroxene is a fiery volcanic material slightly stronger than diamond but with lower durability.",
+  "version": "${version}",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["greatgamer69420"],
+  "credits": "Forge",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
