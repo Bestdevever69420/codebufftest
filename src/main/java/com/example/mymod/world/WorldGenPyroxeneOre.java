@@ -20,7 +20,7 @@ public class WorldGenPyroxeneOre implements IWorldGenerator {
     }
 
     private void generateOverworld(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
-        generateOre(ModBlocks.pyroxene_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 5, 15, random.nextInt(5) + 3, 3);
+        generateOre(ModBlocks.pyroxene_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 64, random.nextInt(5) + 3, 8);
     }
 
     private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances) {

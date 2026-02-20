@@ -57,7 +57,9 @@ public class GuiPyroxeneFurnace extends GuiContainer {
 
         // Draw cook/smelt progress arrow
         int cookProgress = this.getCookProgressScaled(24);
-        this.drawTexturedModalRect(i + 79, j + 34, 176, 14, cookProgress + 1, 16);
+        if (cookProgress > 0) {
+            this.drawTexturedModalRect(i + 79, j + 34, 176, 14, cookProgress + 1, 16);
+        }
     }
 
     private boolean isBurning() {
