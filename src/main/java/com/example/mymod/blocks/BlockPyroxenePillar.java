@@ -11,7 +11,7 @@ public class BlockPyroxenePillar extends BlockRotatedPillar {
         setUnlocalizedName(MyMod.MODID + ".pyroxene_pillar");
         setHardness(4.0F);
         setResistance(8.0F);
-        setHarvestLevel("pickaxe", 2);
+        // setHarvestLevel("pickaxe", 0); // Removed - caused crash
         setCreativeTab(MyMod.CREATIVE_TAB);
     }
 }

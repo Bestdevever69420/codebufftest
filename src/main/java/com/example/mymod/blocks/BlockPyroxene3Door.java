@@ -12,6 +12,6 @@ public class BlockPyroxene3Door extends BlockDoor {
         setCreativeTab(MyMod.CREATIVE_TAB);
         setHardness(3.0F);
         setResistance(5.0F);
-        setHarvestLevel("axe", 0);
+        // setHarvestLevel("axe", 0); // Removed - caused crash
     }
 }

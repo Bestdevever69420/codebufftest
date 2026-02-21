@@ -20,7 +20,7 @@ public class BlockPyroxeneOre extends Block {
         setUnlocalizedName(MyMod.MODID + ".pyroxene_ore");
         setHardness(3.0F);
         setResistance(5.0F);
-        setHarvestLevel("pickaxe", 2);
+        // setHarvestLevel("pickaxe", 0); // Removed - caused crash
         setCreativeTab(MyMod.CREATIVE_TAB);
     }
 

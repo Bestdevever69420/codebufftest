@@ -35,7 +35,6 @@ public class BlockPyroxene3FenceGate extends Block {
         setCreativeTab(MyMod.CREATIVE_TAB);
         setHardness(2.0F);
         setResistance(5.0F);
-        setHarvestLevel("axe", 0);
         setTickRandomly(true);
     }
 

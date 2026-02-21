@@ -23,7 +23,7 @@ public abstract class BlockPyroxene2PlanksSlab extends BlockSlab {
         setDefaultState(state);
         setHardness(2.0F);
         setResistance(5.0F);
-        setHarvestLevel("axe", 0);
+        // setHarvestLevel("axe", 0); // Removed - caused crash
         useNeighborBrightness = !this.isDouble();
     }
 

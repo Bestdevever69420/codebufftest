@@ -26,7 +26,7 @@ public class BlockPyroxeneLeaves extends BlockLeaves {
         setUnlocalizedName(MyMod.MODID + ".pyroxene_leaves");
         setHardness(0.2F);
         setResistance(0.2F);
-        setHarvestLevel("axe", 0);
+        // setHarvestLevel("axe", 0); // Removed - caused crash
         setCreativeTab(MyMod.CREATIVE_TAB);
         this.setDefaultState(this.blockState.getBaseState().withProperty(CHECK_DECAY, Boolean.valueOf(true)).withProperty(DECAYABLE, Boolean.valueOf(true)));
     }

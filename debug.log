@@ -1,621 +1,621 @@
-[07:33:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[07:33:01] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[07:33:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[07:33:01] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
-[07:33:01] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
-[07:33:01] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\java\jre-legacy
-[07:33:01] [main/DEBUG] [FML]: Java classpath at launch is:
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/Desktop/PrismLauncher-Windows-MSVC-9.4/jars/NewLaunch.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/mojang/patchy/1.3.9/patchy-1.3.9.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/google/guava/guava/21.0/guava-21.0.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847-universal.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/mojang/minecraft/1.12.2/minecraft-1.12.2-client.jar
-[07:33:01] [main/DEBUG] [FML]: Java library path at launch is:
-[07:33:01] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/instances/PYROXINE TEST/natives
-[07:33:01] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries
-[07:33:01] [main/DEBUG] [FML]: Cleaning up mods folder: C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods
-[07:33:01] [main/DEBUG] [FML]: Examining file: AoA3-3.3.6.jar
-[07:33:01] [main/DEBUG] [FML]: Examining file: AttributeFix-Forge-1.12.2-1.0.12.jar
-[07:33:01] [main/DEBUG] [FML]: Examining file: Hwyla-1.8.26-B41_1.12.2.jar
-[07:33:01] [main/DEBUG] [FML]: Examining file: jei_1.12.2-4.16.1.1013.jar
-[07:33:01] [main/DEBUG] [FML]: Examining file: mymod-1.1.0.2.jar
-[07:33:01] [main/DEBUG] [FML]: Examining file: overloadedarmorbar-1.0.4g.jar
-[07:33:01] [main/DEBUG] [FML]: Examining file: toughnessbar-2.4.jar
-[07:33:01] [main/DEBUG] [FML]: Examining file: WailaHarvestability-mc1.12-1.1.12.jar
-[07:33:02] [main/DEBUG] [FML]: Enabling runtime deobfuscation
-[07:33:02] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
-[07:33:02] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
-[07:33:02] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[07:33:02] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
-[07:33:02] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
-[07:33:02] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
-[07:33:02] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
-[07:33:02] [main/DEBUG] [FML]: All fundamental core mods are successfully located
-[07:33:02] [main/DEBUG] [FML]: Discovering coremods
-[07:33:02] [main/INFO] [FML]: Searching C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods for mods
-[07:33:02] [main/DEBUG] [FML]:   Adding AoA3-3.3.6.jar to the mod list
-[07:33:02] [main/DEBUG] [FML]:   Adding AttributeFix-Forge-1.12.2-1.0.12.jar to the mod list
-[07:33:02] [main/DEBUG] [FML]:   Adding Hwyla-1.8.26-B41_1.12.2.jar to the mod list
-[07:33:02] [main/DEBUG] [FML]:   Adding jei_1.12.2-4.16.1.1013.jar to the mod list
-[07:33:02] [main/DEBUG] [FML]:   Adding mymod-1.1.0.2.jar to the mod list
-[07:33:02] [main/DEBUG] [FML]:   Adding overloadedarmorbar-1.0.4g.jar to the mod list
-[07:33:02] [main/DEBUG] [FML]:   Adding toughnessbar-2.4.jar to the mod list
-[07:33:02] [main/DEBUG] [FML]:   Adding WailaHarvestability-mc1.12-1.1.12.jar to the mod list
-[07:33:02] [main/DEBUG] [FML]: Examining for coremod candidacy AoA3-3.3.6.jar
-[07:33:02] [main/DEBUG] [FML]: Not found coremod data in AoA3-3.3.6.jar
-[07:33:02] [main/DEBUG] [FML]: Examining for coremod candidacy AttributeFix-Forge-1.12.2-1.0.12.jar
-[07:33:02] [main/DEBUG] [FML]: Not found coremod data in AttributeFix-Forge-1.12.2-1.0.12.jar
-[07:33:02] [main/DEBUG] [FML]: Examining for coremod candidacy Hwyla-1.8.26-B41_1.12.2.jar
-[07:33:02] [main/DEBUG] [FML]: Not found coremod data in Hwyla-1.8.26-B41_1.12.2.jar
-[07:33:02] [main/DEBUG] [FML]: Examining for coremod candidacy jei_1.12.2-4.16.1.1013.jar
-[07:33:02] [main/DEBUG] [FML]: Not found coremod data in jei_1.12.2-4.16.1.1013.jar
-[07:33:02] [main/DEBUG] [FML]: Examining for coremod candidacy mymod-1.1.0.2.jar
-[07:33:02] [main/DEBUG] [FML]: Not found coremod data in mymod-1.1.0.2.jar
-[07:33:02] [main/DEBUG] [FML]: Examining for coremod candidacy overloadedarmorbar-1.0.4g.jar
-[07:33:02] [main/DEBUG] [FML]: Not found coremod data in overloadedarmorbar-1.0.4g.jar
-[07:33:02] [main/DEBUG] [FML]: Examining for coremod candidacy toughnessbar-2.4.jar
-[07:33:02] [main/DEBUG] [FML]: Not found coremod data in toughnessbar-2.4.jar
-[07:33:02] [main/DEBUG] [FML]: Examining for coremod candidacy WailaHarvestability-mc1.12-1.1.12.jar
-[07:33:02] [main/DEBUG] [FML]: Not found coremod data in WailaHarvestability-mc1.12-1.1.12.jar
-[07:33:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:33:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[07:33:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:33:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:33:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[07:33:02] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
-[07:33:02] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
-[07:33:02] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
-[07:33:02] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
-[07:33:02] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
-[07:33:02] [main/DEBUG] [FML]: Injection complete
-[07:33:02] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
-[07:33:02] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
-[07:33:03] [main/DEBUG] [FML]: Read 1145 binary patches
-[07:33:03] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36083 records
-[07:33:04] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
-[07:33:04] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[07:33:04] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
-[07:33:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[07:33:04] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
-[07:33:04] [main/DEBUG] [FML]: Injection complete
-[07:33:04] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
-[07:33:04] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
-[07:33:04] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
-[07:33:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[07:33:04] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
-[07:33:04] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods\AttributeFix-Forge-1.12.2-1.0.12.jar!META-INF/accesstransformer.cfg
+[07:46:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[07:46:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[07:46:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[07:46:22] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[07:46:22] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[07:46:22] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\java\jre-legacy
+[07:46:22] [main/DEBUG] [FML]: Java classpath at launch is:
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/Desktop/PrismLauncher-Windows-MSVC-9.4/jars/NewLaunch.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/mojang/patchy/1.3.9/patchy-1.3.9.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/google/guava/guava/21.0/guava-21.0.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847-universal.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/libraries/com/mojang/minecraft/1.12.2/minecraft-1.12.2-client.jar
+[07:46:22] [main/DEBUG] [FML]: Java library path at launch is:
+[07:46:22] [main/DEBUG] [FML]:     C:/Users/Edward Anderson/AppData/Roaming/PrismLauncher/instances/PYROXINE TEST/natives
+[07:46:22] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries
+[07:46:22] [main/DEBUG] [FML]: Cleaning up mods folder: C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods
+[07:46:23] [main/DEBUG] [FML]: Examining file: AoA3-3.3.6.jar
+[07:46:23] [main/DEBUG] [FML]: Examining file: AttributeFix-Forge-1.12.2-1.0.12.jar
+[07:46:23] [main/DEBUG] [FML]: Examining file: Hwyla-1.8.26-B41_1.12.2.jar
+[07:46:23] [main/DEBUG] [FML]: Examining file: jei_1.12.2-4.16.1.1013.jar
+[07:46:23] [main/DEBUG] [FML]: Examining file: mymod-1.1.0.3.jar
+[07:46:23] [main/DEBUG] [FML]: Examining file: overloadedarmorbar-1.0.4g.jar
+[07:46:23] [main/DEBUG] [FML]: Examining file: toughnessbar-2.4.jar
+[07:46:23] [main/DEBUG] [FML]: Examining file: WailaHarvestability-mc1.12-1.1.12.jar
+[07:46:23] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[07:46:23] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[07:46:23] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[07:46:23] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[07:46:23] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[07:46:23] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[07:46:23] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[07:46:23] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[07:46:23] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[07:46:23] [main/DEBUG] [FML]: Discovering coremods
+[07:46:23] [main/INFO] [FML]: Searching C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods for mods
+[07:46:23] [main/DEBUG] [FML]:   Adding AoA3-3.3.6.jar to the mod list
+[07:46:23] [main/DEBUG] [FML]:   Adding AttributeFix-Forge-1.12.2-1.0.12.jar to the mod list
+[07:46:23] [main/DEBUG] [FML]:   Adding Hwyla-1.8.26-B41_1.12.2.jar to the mod list
+[07:46:23] [main/DEBUG] [FML]:   Adding jei_1.12.2-4.16.1.1013.jar to the mod list
+[07:46:23] [main/DEBUG] [FML]:   Adding mymod-1.1.0.3.jar to the mod list
+[07:46:23] [main/DEBUG] [FML]:   Adding overloadedarmorbar-1.0.4g.jar to the mod list
+[07:46:23] [main/DEBUG] [FML]:   Adding toughnessbar-2.4.jar to the mod list
+[07:46:23] [main/DEBUG] [FML]:   Adding WailaHarvestability-mc1.12-1.1.12.jar to the mod list
+[07:46:23] [main/DEBUG] [FML]: Examining for coremod candidacy AoA3-3.3.6.jar
+[07:46:23] [main/DEBUG] [FML]: Not found coremod data in AoA3-3.3.6.jar
+[07:46:23] [main/DEBUG] [FML]: Examining for coremod candidacy AttributeFix-Forge-1.12.2-1.0.12.jar
+[07:46:23] [main/DEBUG] [FML]: Not found coremod data in AttributeFix-Forge-1.12.2-1.0.12.jar
+[07:46:23] [main/DEBUG] [FML]: Examining for coremod candidacy Hwyla-1.8.26-B41_1.12.2.jar
+[07:46:23] [main/DEBUG] [FML]: Not found coremod data in Hwyla-1.8.26-B41_1.12.2.jar
+[07:46:23] [main/DEBUG] [FML]: Examining for coremod candidacy jei_1.12.2-4.16.1.1013.jar
+[07:46:23] [main/DEBUG] [FML]: Not found coremod data in jei_1.12.2-4.16.1.1013.jar
+[07:46:23] [main/DEBUG] [FML]: Examining for coremod candidacy mymod-1.1.0.3.jar
+[07:46:23] [main/DEBUG] [FML]: Not found coremod data in mymod-1.1.0.3.jar
+[07:46:23] [main/DEBUG] [FML]: Examining for coremod candidacy overloadedarmorbar-1.0.4g.jar
+[07:46:23] [main/DEBUG] [FML]: Not found coremod data in overloadedarmorbar-1.0.4g.jar
+[07:46:23] [main/DEBUG] [FML]: Examining for coremod candidacy toughnessbar-2.4.jar
+[07:46:23] [main/DEBUG] [FML]: Not found coremod data in toughnessbar-2.4.jar
+[07:46:23] [main/DEBUG] [FML]: Examining for coremod candidacy WailaHarvestability-mc1.12-1.1.12.jar
+[07:46:23] [main/DEBUG] [FML]: Not found coremod data in WailaHarvestability-mc1.12-1.1.12.jar
+[07:46:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:46:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[07:46:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:46:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:46:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:46:23] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[07:46:23] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[07:46:24] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[07:46:24] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[07:46:24] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[07:46:24] [main/DEBUG] [FML]: Injection complete
+[07:46:24] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[07:46:24] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[07:46:25] [main/DEBUG] [FML]: Read 1145 binary patches
+[07:46:25] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36083 records
+[07:46:26] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[07:46:26] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[07:46:26] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[07:46:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:46:26] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[07:46:26] [main/DEBUG] [FML]: Injection complete
+[07:46:26] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[07:46:26] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[07:46:26] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[07:46:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[07:46:26] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[07:46:26] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods\AttributeFix-Forge-1.12.2-1.0.12.jar!META-INF/accesstransformer.cfg
 
-[07:33:04] [main/DEBUG] [FML]: Loaded 13 rules from AccessTransformer mod jar file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods\jei_1.12.2-4.16.1.1013.jar!META-INF/jei_at.cfg
+[07:46:26] [main/DEBUG] [FML]: Loaded 13 rules from AccessTransformer mod jar file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods\jei_1.12.2-4.16.1.1013.jar!META-INF/jei_at.cfg
 
-[07:33:04] [main/DEBUG] [FML]: Validating minecraft
-[07:33:05] [main/DEBUG] [FML]: Minecraft validated, launching...
-[07:33:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[07:33:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[07:33:05] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[07:33:07] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Greatgamer69420
-[07:33:12] [Client thread/DEBUG] [FML]: Creating vanilla freeze snapshot
-[07:33:12] [Client thread/DEBUG] [FML]: Vanilla freeze snapshot created
-[07:33:12] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[07:33:12] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[07:33:14] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - LanguageManager took 0.002s
-[07:33:15] [Client thread/INFO] [FML]: -- System Details --
+[07:46:26] [main/DEBUG] [FML]: Validating minecraft
+[07:46:27] [main/DEBUG] [FML]: Minecraft validated, launching...
+[07:46:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[07:46:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[07:46:27] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[07:46:30] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Greatgamer69420
+[07:46:34] [Client thread/DEBUG] [FML]: Creating vanilla freeze snapshot
+[07:46:34] [Client thread/DEBUG] [FML]: Vanilla freeze snapshot created
+[07:46:35] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[07:46:35] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[07:46:37] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - LanguageManager took 0.002s
+[07:46:37] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 8.1 (amd64) version 6.3
 	Java Version: 1.8.0_51, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 1169789600 bytes (1115 MB) / 1280311296 bytes (1221 MB) up to 11453595648 bytes (10923 MB)
+	Memory: 997539272 bytes (951 MB) / 1106771968 bytes (1055 MB) up to 11453595648 bytes (10923 MB)
 	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx12288m
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 32.0.101.6987' Renderer: 'Intel(R) UHD Graphics'
-[07:33:15] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
-[07:33:15] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[07:33:15] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[07:33:15] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[07:33:15] [Client thread/DEBUG] [FML]: File C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\config\injectedDependencies.json not found. No dependencies injected
-[07:33:15] [Client thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
-[07:33:15] [Client thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
-[07:33:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\Desktop\PrismLauncher-Windows-MSVC-9.4\jars\NewLaunch.jar, examining for mod candidates
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
-[07:33:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\mojang\patchy\1.3.9\patchy-1.3.9.jar, examining for mod candidates
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\google\guava\guava\21.0\guava-21.0.jar
-[07:33:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar
-[07:33:16] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar, examining for mod candidates
-[07:33:16] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2847\forge-1.12.2-14.23.5.2847-universal.jar, examining for mod candidates
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
-[07:33:16] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
-[07:33:16] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar, examining for mod candidates
-[07:33:16] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.12.2\minecraft-1.12.2-client.jar, examining for mod candidates
-[07:33:16] [Client thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
-[07:33:16] [Client thread/INFO] [FML]: Searching C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods for mods
-[07:33:16] [Client thread/DEBUG] [FML]:   Adding AoA3-3.3.6.jar to the mod list
-[07:33:16] [Client thread/DEBUG] [FML]:   Adding AttributeFix-Forge-1.12.2-1.0.12.jar to the mod list
-[07:33:16] [Client thread/DEBUG] [FML]:   Adding Hwyla-1.8.26-B41_1.12.2.jar to the mod list
-[07:33:16] [Client thread/DEBUG] [FML]:   Adding jei_1.12.2-4.16.1.1013.jar to the mod list
-[07:33:16] [Client thread/DEBUG] [FML]:   Adding mymod-1.1.0.2.jar to the mod list
-[07:33:16] [Client thread/DEBUG] [FML]:   Adding overloadedarmorbar-1.0.4g.jar to the mod list
-[07:33:16] [Client thread/DEBUG] [FML]:   Adding toughnessbar-2.4.jar to the mod list
-[07:33:16] [Client thread/DEBUG] [FML]:   Adding WailaHarvestability-mc1.12-1.1.12.jar to the mod list
-[07:33:16] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file AoA3-3.3.6.jar
-[07:33:16] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file AttributeFix-Forge-1.12.2-1.0.12.jar
-[07:33:16] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file Hwyla-1.8.26-B41_1.12.2.jar
-[07:33:16] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file jei_1.12.2-4.16.1.1013.jar
-[07:33:16] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file mymod-1.1.0.2.jar
-[07:33:16] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file overloadedarmorbar-1.0.4g.jar
-[07:33:16] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file toughnessbar-2.4.jar
-[07:33:16] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file WailaHarvestability-mc1.12-1.1.12.jar
-[07:33:16] [Client thread/DEBUG] [FML]: Examining file NewLaunch.jar for potential mods
-[07:33:16] [Client thread/DEBUG] [FML]: The mod container NewLaunch.jar appears to be missing an mcmod.info file
-[07:33:16] [Client thread/DEBUG] [FML]: Examining file patchy-1.3.9.jar for potential mods
-[07:33:16] [Client thread/DEBUG] [FML]: The mod container patchy-1.3.9.jar appears to be missing an mcmod.info file
-[07:33:16] [Client thread/DEBUG] [FML]: Examining file text2speech-1.10.3.jar for potential mods
-[07:33:16] [Client thread/DEBUG] [FML]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
-[07:33:16] [Client thread/DEBUG] [FML]: Examining file forge-1.12.2-14.23.5.2847-universal.jar for potential mods
-[07:33:16] [Client thread/DEBUG] [FML]: The mod container forge-1.12.2-14.23.5.2847-universal.jar appears to be missing an mcmod.info file
-[07:33:16] [Client thread/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential mods
-[07:33:16] [Client thread/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info file
-[07:33:16] [Client thread/DEBUG] [FML]: Examining file minecraft-1.12.2-client.jar for potential mods
-[07:33:16] [Client thread/DEBUG] [FML]: The mod container minecraft-1.12.2-client.jar appears to be missing an mcmod.info file
-[07:33:17] [Client thread/DEBUG] [FML]: Examining file AoA3-3.3.6.jar for potential mods
-[07:33:17] [Client thread/TRACE] [FML]: Located mcmod.info file in file AoA3-3.3.6.jar
-[07:33:17] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.tslat.aoa3.advent.AdventOfAscension) - loading
-[07:33:17] [Client thread/TRACE] [FML]: Parsed dependency info for aoa3: Requirements: [forge@[14.23.5.2846,)] After:[forge@[14.23.5.2846,)] Before:[]
-[07:33:18] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 413306800 nanos
-[07:33:18] [Client thread/DEBUG] [FML]: Examining file AttributeFix-Forge-1.12.2-1.0.12.jar for potential mods
-[07:33:18] [Client thread/TRACE] [FML]: Located mcmod.info file in file AttributeFix-Forge-1.12.2-1.0.12.jar
-[07:33:18] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.darkhax.attributefix.AttributeFix) - loading
-[07:33:18] [Client thread/TRACE] [FML]: Parsed dependency info for attributefix: Requirements: [] After:[] Before:[]
-[07:33:18] [Client thread/DEBUG] [FML]: Examining file Hwyla-1.8.26-B41_1.12.2.jar for potential mods
-[07:33:18] [Client thread/TRACE] [FML]: Located mcmod.info file in file Hwyla-1.8.26-B41_1.12.2.jar
-[07:33:18] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mcp.mobius.waila.Waila) - loading
-[07:33:18] [Client thread/TRACE] [FML]: Parsed dependency info for waila: Requirements: [] After:[] Before:[]
-[07:33:18] [Client thread/DEBUG] [FML]: Examining file jei_1.12.2-4.16.1.1013.jar for potential mods
-[07:33:18] [Client thread/TRACE] [FML]: Located mcmod.info file in file jei_1.12.2-4.16.1.1013.jar
-[07:33:18] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mezz.jei.JustEnoughItems) - loading
-[07:33:18] [Client thread/TRACE] [FML]: Parsed dependency info for jei: Requirements: [forge@[14.23.5.2816,)] After:[forge@[14.23.5.2816,)] Before:[]
-[07:33:18] [Client thread/DEBUG] [FML]: Examining file mymod-1.1.0.2.jar for potential mods
-[07:33:18] [Client thread/TRACE] [FML]: Located mcmod.info file in file mymod-1.1.0.2.jar
-[07:33:18] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.example.mymod.MyMod) - loading
-[07:33:18] [Client thread/TRACE] [FML]: Parsed dependency info for mymod: Requirements: [] After:[] Before:[]
-[07:33:18] [Client thread/DEBUG] [FML]: Examining file overloadedarmorbar-1.0.4g.jar for potential mods
-[07:33:18] [Client thread/TRACE] [FML]: Located mcmod.info file in file overloadedarmorbar-1.0.4g.jar
-[07:33:18] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (locusway.overpoweredarmorbar.OverpoweredArmorBar) - loading
-[07:33:18] [Client thread/TRACE] [FML]: Parsed dependency info for overpoweredarmorbar: Requirements: [] After:[] Before:[]
-[07:33:18] [Client thread/DEBUG] [FML]: Examining file toughnessbar-2.4.jar for potential mods
-[07:33:18] [Client thread/TRACE] [FML]: Located mcmod.info file in file toughnessbar-2.4.jar
-[07:33:18] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.tfar.toughnessbar.ToughnessBar) - loading
-[07:33:18] [Client thread/TRACE] [FML]: Parsed dependency info for toughnessbar: Requirements: [] After:[] Before:[]
-[07:33:18] [Client thread/DEBUG] [FML]: Examining file WailaHarvestability-mc1.12-1.1.12.jar for potential mods
-[07:33:18] [Client thread/TRACE] [FML]: Located mcmod.info file in file WailaHarvestability-mc1.12-1.1.12.jar
-[07:33:18] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (squeek.wailaharvestability.ModWailaHarvestability) - loading
-[07:33:18] [Client thread/TRACE] [FML]: Parsed dependency info for wailaharvestability: Requirements: [] After:[tconstruct] Before:[]
-[07:33:18] [Client thread/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
-[07:33:18] [Client thread/DEBUG] [FML]: Found API mcp.mobius.waila.api (owned by Waila providing WailaAPI) embedded in waila
-[07:33:18] [Client thread/DEBUG] [FML]: Found API mezz.jei.api (owned by jei providing JustEnoughItemsAPI) embedded in jei
-[07:33:18] [Client thread/DEBUG] [FML]: Creating API container dummy for API JustEnoughItemsAPI: owner: jei, dependents: []
-[07:33:18] [Client thread/DEBUG] [FML]: Creating API container dummy for API WailaAPI: owner: Waila, dependents: [waila]
-[07:33:18] [Client thread/TRACE] [FML]: Received a system property request ''
-[07:33:18] [Client thread/TRACE] [FML]: System property request managing the state of 0 mods
-[07:33:18] [Client thread/DEBUG] [FML]: After merging, found state information for 0 mods
-[07:33:18] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
-[07:33:18] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
-[07:33:18] [Client thread/DEBUG] [FML]: Enabling mod aoa3
-[07:33:18] [Client thread/DEBUG] [FML]: Enabling mod attributefix
-[07:33:18] [Client thread/DEBUG] [FML]: Mod Attribute Fix is missing a pack.mcmeta file, substituting a dummy one
-[07:33:18] [Client thread/DEBUG] [FML]: Enabling mod waila
-[07:33:18] [Client thread/DEBUG] [FML]: Mod Waila is missing a pack.mcmeta file, substituting a dummy one
-[07:33:18] [Client thread/DEBUG] [FML]: Enabling mod jei
-[07:33:18] [Client thread/DEBUG] [FML]: Enabling mod mymod
-[07:33:18] [Client thread/DEBUG] [FML]: Enabling mod overpoweredarmorbar
-[07:33:18] [Client thread/DEBUG] [FML]: Mod Overloaded Armor Bar is missing a pack.mcmeta file, substituting a dummy one
-[07:33:18] [Client thread/DEBUG] [FML]: Enabling mod toughnessbar
-[07:33:18] [Client thread/DEBUG] [FML]: Enabling mod wailaharvestability
-[07:33:18] [Client thread/DEBUG] [FML]: Mod Waila Harvestability is missing a pack.mcmeta file, substituting a dummy one
-[07:33:18] [Client thread/TRACE] [FML]: Verifying mod requirements are satisfied
-[07:33:18] [Client thread/TRACE] [FML]: All mod requirements are satisfied
-[07:33:18] [Client thread/TRACE] [FML]: Sorting mods into an ordered list
-[07:33:18] [Client thread/TRACE] [FML]: Mod sorting completed successfully
-[07:33:18] [Client thread/DEBUG] [FML]: Mod sorting data
-[07:33:18] [Client thread/DEBUG] [FML]: 	aoa3(Advent Of Ascension:3.3.6): AoA3-3.3.6.jar (required-after:forge@[14.23.5.2846,);)
-[07:33:18] [Client thread/DEBUG] [FML]: 	attributefix(Attribute Fix:1.0.12): AttributeFix-Forge-1.12.2-1.0.12.jar ()
-[07:33:18] [Client thread/DEBUG] [FML]: 	WailaAPI(API: WailaAPI:1.3): Hwyla-1.8.26-B41_1.12.2.jar ()
-[07:33:18] [Client thread/DEBUG] [FML]: 	waila(Waila:1.8.26): Hwyla-1.8.26-B41_1.12.2.jar ()
-[07:33:18] [Client thread/DEBUG] [FML]: 	jei(Just Enough Items:4.16.1.1013): jei_1.12.2-4.16.1.1013.jar (required-after:forge@[14.23.5.2816,);)
-[07:33:18] [Client thread/DEBUG] [FML]: 	mymod(Pyroxene Mod:1.1.0.2): mymod-1.1.0.2.jar ()
-[07:33:18] [Client thread/DEBUG] [FML]: 	overpoweredarmorbar(Overloaded Armor Bar:@VERSION@): overloadedarmorbar-1.0.4g.jar ()
-[07:33:18] [Client thread/DEBUG] [FML]: 	toughnessbar(Toughness bar:@VERSION@): toughnessbar-2.4.jar ()
-[07:33:18] [Client thread/DEBUG] [FML]: 	wailaharvestability(Waila Harvestability:1.1.12): WailaHarvestability-mc1.12-1.1.12.jar (after:tconstruct;)
-[07:33:18] [Client thread/DEBUG] [FML]: 	JustEnoughItemsAPI(API: JustEnoughItemsAPI:4.13.0): jei_1.12.2-4.16.1.1013.jar ()
-[07:33:18] [Client thread/DEBUG] [FML]: Loading @Config anotation data
-[07:33:18] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
-[07:33:18] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
-[07:33:18] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.006s
-[07:33:18] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
-[07:33:18] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
-[07:33:18] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
-[07:33:18] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
-[07:33:19] [Client thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
-[07:33:19] [Client thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
-[07:33:19] [Client thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
-[07:33:19] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aoa3, attributefix, waila, jei, mymod, overpoweredarmorbar, toughnessbar, wailaharvestability] at CLIENT
-[07:33:19] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aoa3, attributefix, waila, jei, mymod, overpoweredarmorbar, toughnessbar, wailaharvestability] at SERVER
-[07:33:19] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
-[07:33:19] [Client thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.792s
-[07:33:19] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
-[07:33:19] [Client thread/DEBUG] [forge]: Loading Vanilla annotations: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@747fa2b5
-[07:33:19] [Client thread/DEBUG] [forge]: Preloading CrashReport Classes
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$5
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$5
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallable
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
-[07:33:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
-[07:33:19] [Client thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
-[07:33:19] [Client thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
-[07:33:19] [Client thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2847)
-[07:33:19] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
-[07:33:19] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
-[07:33:19] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.274s
-[07:33:19] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod aoa3
-[07:33:20] [Client thread/TRACE] [FML]: Mod aoa3 is using network checker : Accepting version 3.3.6
-[07:33:20] [Client thread/TRACE] [FML]: Testing mod aoa3 to verify it accepts its own version in a remote connection
-[07:33:20] [Client thread/TRACE] [FML]: The mod aoa3 accepts its own version (3.3.6)
-[07:33:20] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into aoa3
-[07:33:20] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for aoa3
-[07:33:20] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.ToolRegister for mod aoa3
-[07:33:20] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.ToolRegister
-[07:33:20] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.EnchantmentsRegister for mod aoa3
-[07:33:20] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.EnchantmentsRegister
-[07:33:20] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.EntityRegister for mod aoa3
-[07:33:20] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.EntityRegister
-[07:33:20] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.ArmourRegister for mod aoa3
-[07:33:20] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.ArmourRegister
-[07:33:20] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.BiomeRegister for mod aoa3
-[07:33:20] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.BiomeRegister
-[07:33:20] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.block.generation.ores.OverworldOre for mod aoa3
-[07:33:20] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.block.generation.ores.OverworldOre
-[07:33:20] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.DimensionRegister for mod aoa3
-[07:33:20] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.DimensionRegister
-[07:33:20] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.SoundsRegister for mod aoa3
-[07:33:21] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.SoundsRegister
-[07:33:21] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.client.render.entities.EntityRenders for mod aoa3
-[07:33:29] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.client.render.entities.EntityRenders
-[07:33:29] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.BlockRegister for mod aoa3
-[07:33:48] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.BlockRegister
-[07:33:48] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.ItemRegister for mod aoa3
-[07:33:49] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.ItemRegister
-[07:33:49] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.WeaponRegister for mod aoa3
-[07:33:50] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.WeaponRegister
-[07:33:50] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into aoa3 for type INSTANCE
-[07:33:51] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod aoa3
-[07:33:51] [Client thread/DEBUG] [FML]: Bar Step: Construction - Advent Of Ascension took 31.725s
-[07:33:51] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod attributefix
-[07:33:51] [Client thread/TRACE] [FML]: Mod attributefix is using network checker : Accepting version 1.0.12
-[07:33:51] [Client thread/TRACE] [FML]: Testing mod attributefix to verify it accepts its own version in a remote connection
-[07:33:51] [Client thread/TRACE] [FML]: The mod attributefix accepts its own version (1.0.12)
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into attributefix
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for attributefix
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into attributefix for type INSTANCE
-[07:33:51] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod attributefix
-[07:33:51] [Client thread/DEBUG] [FML]: Bar Step: Construction - Attribute Fix took 0.055s
-[07:33:51] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod waila
-[07:33:51] [Client thread/TRACE] [FML]: Mod waila is using network checker : No network checking performed
-[07:33:51] [Client thread/TRACE] [FML]: Testing mod waila to verify it accepts its own version in a remote connection
-[07:33:51] [Client thread/TRACE] [FML]: The mod waila accepts its own version (1.8.26)
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into waila
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for waila
-[07:33:51] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.handlers.NetworkHandler for mod waila
-[07:33:51] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.handlers.NetworkHandler
-[07:33:51] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.client.KeyEvent for mod waila
-[07:33:51] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.client.KeyEvent
-[07:33:51] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.overlay.WailaTickHandler for mod waila
-[07:33:51] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.overlay.WailaTickHandler
-[07:33:51] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.handlers.VanillaTooltipHandler for mod waila
-[07:33:51] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.handlers.VanillaTooltipHandler
-[07:33:51] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.overlay.DecoratorRenderer for mod waila
-[07:33:51] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.overlay.DecoratorRenderer
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into waila for type INSTANCE
-[07:33:51] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod waila
-[07:33:51] [Client thread/DEBUG] [FML]: Bar Step: Construction - Waila took 0.097s
-[07:33:51] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod jei
-[07:33:51] [Client thread/TRACE] [FML]: Mod jei is using network checker : Invoking method checkModLists
-[07:33:51] [Client thread/TRACE] [FML]: Testing mod jei to verify it accepts its own version in a remote connection
-[07:33:51] [Client thread/TRACE] [FML]: The mod jei accepts its own version (4.16.1.1013)
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into jei
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
-[07:33:51] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mezz.jei.input.MouseHelper for mod jei
-[07:33:51] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mezz.jei.input.MouseHelper
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into jei for type INSTANCE
-[07:33:51] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod jei
-[07:33:51] [Client thread/DEBUG] [FML]: Bar Step: Construction - Just Enough Items took 0.076s
-[07:33:51] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mymod
-[07:33:51] [Client thread/TRACE] [FML]: Mod mymod is using network checker : Accepting version 1.1.0.2
-[07:33:51] [Client thread/TRACE] [FML]: Testing mod mymod to verify it accepts its own version in a remote connection
-[07:33:51] [Client thread/TRACE] [FML]: The mod mymod accepts its own version (1.1.0.2)
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into mymod
-[07:33:51] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for mymod
-[07:33:51] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.example.mymod.init.ModBlocks for mod mymod
-[07:33:52] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.example.mymod.init.ModBlocks
-[07:33:52] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.example.mymod.init.ModTools for mod mymod
-[07:33:52] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.example.mymod.init.ModTools
-[07:33:52] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.example.mymod.init.ModItems for mod mymod
-[07:33:52] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.example.mymod.init.ModItems
-[07:33:52] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.example.mymod.init.ModArmor for mod mymod
-[07:33:52] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.example.mymod.init.ModArmor
-[07:33:52] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into mymod for type INSTANCE
-[07:33:52] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mymod
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Construction - Pyroxene Mod took 0.203s
-[07:33:52] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod overpoweredarmorbar
-[07:33:52] [Client thread/TRACE] [FML]: Mod overpoweredarmorbar is using network checker : Accepting version @VERSION@
-[07:33:52] [Client thread/TRACE] [FML]: Testing mod overpoweredarmorbar to verify it accepts its own version in a remote connection
-[07:33:52] [Client thread/TRACE] [FML]: The mod overpoweredarmorbar accepts its own version (@VERSION@)
-[07:33:52] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into overpoweredarmorbar
-[07:33:52] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for overpoweredarmorbar
-[07:33:52] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for locusway.overpoweredarmorbar.ModConfig$EventConfigChanged for mod overpoweredarmorbar
-[07:33:52] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class locusway.overpoweredarmorbar.ModConfig$EventConfigChanged
-[07:33:52] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for locusway.overpoweredarmorbar.proxy.ClientProxy for mod overpoweredarmorbar
-[07:33:52] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class locusway.overpoweredarmorbar.proxy.ClientProxy
-[07:33:52] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for locusway.overpoweredarmorbar.proxy.CommonProxy for mod overpoweredarmorbar
-[07:33:52] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class locusway.overpoweredarmorbar.proxy.CommonProxy
-[07:33:52] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into overpoweredarmorbar for type INSTANCE
-[07:33:52] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod overpoweredarmorbar
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Construction - Overloaded Armor Bar took 0.052s
-[07:33:52] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod toughnessbar
-[07:33:52] [Client thread/TRACE] [FML]: Mod toughnessbar is using network checker : Accepting version @VERSION@
-[07:33:52] [Client thread/TRACE] [FML]: Testing mod toughnessbar to verify it accepts its own version in a remote connection
-[07:33:52] [Client thread/TRACE] [FML]: The mod toughnessbar accepts its own version (@VERSION@)
-[07:33:52] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into toughnessbar
-[07:33:52] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for toughnessbar
-[07:33:52] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into toughnessbar for type INSTANCE
-[07:33:52] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod toughnessbar
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Construction - Toughness bar took 0.026s
-[07:33:52] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod wailaharvestability
-[07:33:52] [Client thread/TRACE] [FML]: Mod wailaharvestability is using network checker : Accepting version 1.1.12
-[07:33:52] [Client thread/TRACE] [FML]: Testing mod wailaharvestability to verify it accepts its own version in a remote connection
-[07:33:52] [Client thread/TRACE] [FML]: The mod wailaharvestability accepts its own version (1.1.12)
-[07:33:52] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into wailaharvestability
-[07:33:52] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for wailaharvestability
-[07:33:52] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into wailaharvestability for type INSTANCE
-[07:33:52] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod wailaharvestability
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Construction - Waila Harvestability took 0.027s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Finished: Construction took 33.333s
-[07:33:52] [Client thread/DEBUG] [FML]: Mod signature data
-[07:33:52] [Client thread/DEBUG] [FML]:  	Valid Signatures:
-[07:33:52] [Client thread/DEBUG] [FML]: 		(8bddeac148843f40e0b9f69201be2f4b3071700d) aoa3	(Advent Of Ascension	3.3.6)	AoA3-3.3.6.jar
-[07:33:52] [Client thread/DEBUG] [FML]:  	Missing Signatures:
-[07:33:52] [Client thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
-[07:33:52] [Client thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
-[07:33:52] [Client thread/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.5.2847-universal.jar
-[07:33:52] [Client thread/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2847)	forge-1.12.2-14.23.5.2847-universal.jar
-[07:33:52] [Client thread/DEBUG] [FML]: 		attributefix	(Attribute Fix	1.0.12)	AttributeFix-Forge-1.12.2-1.0.12.jar
-[07:33:52] [Client thread/DEBUG] [FML]: 		waila	(Waila	1.8.26)	Hwyla-1.8.26-B41_1.12.2.jar
-[07:33:52] [Client thread/DEBUG] [FML]: 		jei	(Just Enough Items	4.16.1.1013)	jei_1.12.2-4.16.1.1013.jar
-[07:33:52] [Client thread/DEBUG] [FML]: 		mymod	(Pyroxene Mod	1.1.0.2)	mymod-1.1.0.2.jar
-[07:33:52] [Client thread/DEBUG] [FML]: 		overpoweredarmorbar	(Overloaded Armor Bar	@VERSION@)	overloadedarmorbar-1.0.4g.jar
-[07:33:52] [Client thread/DEBUG] [FML]: 		toughnessbar	(Toughness bar	@VERSION@)	toughnessbar-2.4.jar
-[07:33:52] [Client thread/DEBUG] [FML]: 		wailaharvestability	(Waila Harvestability	1.1.12)	WailaHarvestability-mc1.12-1.1.12.jar
-[07:33:52] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advent Of Ascension, FMLFileResourcePack:Attribute Fix, FMLFileResourcePack:Waila, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Pyroxene Mod, FMLFileResourcePack:Overloaded Armor Bar, FMLFileResourcePack:Toughness bar, FMLFileResourcePack:Waila Harvestability
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Default took 0.006s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.003s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.004s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Advent Of Ascension took 0.091s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Attribute Fix took 0.001s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Waila took 0.001s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Just Enough Items took 0.001s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Pyroxene Mod took 0.001s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Overloaded Armor Bar took 0.000s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Toughness bar took 0.000s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Waila Harvestability took 0.000s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Finished: Reloading - LanguageManager took 0.125s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Reloading listeners took 0.126s
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resources took 0.235s
-[07:33:52] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
-[07:33:52] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
-[07:33:52] [Client thread/DEBUG] [FML]: Mod Attribute Fix is missing a pack.mcmeta file, substituting a dummy one
-[07:33:52] [Client thread/DEBUG] [FML]: Mod Waila is missing a pack.mcmeta file, substituting a dummy one
-[07:33:52] [Client thread/DEBUG] [FML]: Mod Overloaded Armor Bar is missing a pack.mcmeta file, substituting a dummy one
-[07:33:52] [Client thread/DEBUG] [FML]: Mod Waila Harvestability is missing a pack.mcmeta file, substituting a dummy one
-[07:33:52] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[07:33:52] [Client thread/INFO] [FML]: Found 4555 ObjectHolder annotations
-[07:33:52] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[07:33:52] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[07:33:52] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
-[07:33:52] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.001s
-[07:33:52] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
-[07:33:52] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
-[07:33:52] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
-[07:33:52] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
-[07:33:52] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
-[07:33:52] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[07:33:52] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
-[07:33:52] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.129s
-[07:33:52] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod aoa3
-[07:33:52] [Client thread/INFO] [aoa3]: Beginning fluid registration
-[07:33:52] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[07:33:55] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+[07:46:37] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[07:46:37] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[07:46:37] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[07:46:37] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[07:46:40] [Client thread/DEBUG] [FML]: File C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\config\injectedDependencies.json not found. No dependencies injected
+[07:46:40] [Client thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[07:46:40] [Client thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[07:46:40] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\Desktop\PrismLauncher-Windows-MSVC-9.4\jars\NewLaunch.jar, examining for mod candidates
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\mojang\patchy\1.3.9\patchy-1.3.9.jar, examining for mod candidates
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar, examining for mod candidates
+[07:46:40] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2847\forge-1.12.2-14.23.5.2847-universal.jar, examining for mod candidates
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[07:46:40] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar, examining for mod candidates
+[07:46:40] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\libraries\com\mojang\minecraft\1.12.2\minecraft-1.12.2-client.jar, examining for mod candidates
+[07:46:40] [Client thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[07:46:40] [Client thread/INFO] [FML]: Searching C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods for mods
+[07:46:40] [Client thread/DEBUG] [FML]:   Adding AoA3-3.3.6.jar to the mod list
+[07:46:40] [Client thread/DEBUG] [FML]:   Adding AttributeFix-Forge-1.12.2-1.0.12.jar to the mod list
+[07:46:40] [Client thread/DEBUG] [FML]:   Adding Hwyla-1.8.26-B41_1.12.2.jar to the mod list
+[07:46:40] [Client thread/DEBUG] [FML]:   Adding jei_1.12.2-4.16.1.1013.jar to the mod list
+[07:46:40] [Client thread/DEBUG] [FML]:   Adding mymod-1.1.0.3.jar to the mod list
+[07:46:40] [Client thread/DEBUG] [FML]:   Adding overloadedarmorbar-1.0.4g.jar to the mod list
+[07:46:40] [Client thread/DEBUG] [FML]:   Adding toughnessbar-2.4.jar to the mod list
+[07:46:40] [Client thread/DEBUG] [FML]:   Adding WailaHarvestability-mc1.12-1.1.12.jar to the mod list
+[07:46:40] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file AoA3-3.3.6.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file AttributeFix-Forge-1.12.2-1.0.12.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file Hwyla-1.8.26-B41_1.12.2.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file jei_1.12.2-4.16.1.1013.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file mymod-1.1.0.3.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file overloadedarmorbar-1.0.4g.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file toughnessbar-2.4.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file WailaHarvestability-mc1.12-1.1.12.jar
+[07:46:40] [Client thread/DEBUG] [FML]: Examining file NewLaunch.jar for potential mods
+[07:46:40] [Client thread/DEBUG] [FML]: The mod container NewLaunch.jar appears to be missing an mcmod.info file
+[07:46:40] [Client thread/DEBUG] [FML]: Examining file patchy-1.3.9.jar for potential mods
+[07:46:40] [Client thread/DEBUG] [FML]: The mod container patchy-1.3.9.jar appears to be missing an mcmod.info file
+[07:46:40] [Client thread/DEBUG] [FML]: Examining file text2speech-1.10.3.jar for potential mods
+[07:46:40] [Client thread/DEBUG] [FML]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
+[07:46:40] [Client thread/DEBUG] [FML]: Examining file forge-1.12.2-14.23.5.2847-universal.jar for potential mods
+[07:46:40] [Client thread/DEBUG] [FML]: The mod container forge-1.12.2-14.23.5.2847-universal.jar appears to be missing an mcmod.info file
+[07:46:41] [Client thread/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential mods
+[07:46:41] [Client thread/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info file
+[07:46:41] [Client thread/DEBUG] [FML]: Examining file minecraft-1.12.2-client.jar for potential mods
+[07:46:41] [Client thread/DEBUG] [FML]: The mod container minecraft-1.12.2-client.jar appears to be missing an mcmod.info file
+[07:46:42] [Client thread/DEBUG] [FML]: Examining file AoA3-3.3.6.jar for potential mods
+[07:46:42] [Client thread/TRACE] [FML]: Located mcmod.info file in file AoA3-3.3.6.jar
+[07:46:42] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.tslat.aoa3.advent.AdventOfAscension) - loading
+[07:46:42] [Client thread/TRACE] [FML]: Parsed dependency info for aoa3: Requirements: [forge@[14.23.5.2846,)] After:[forge@[14.23.5.2846,)] Before:[]
+[07:46:42] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 455476300 nanos
+[07:46:43] [Client thread/DEBUG] [FML]: Examining file AttributeFix-Forge-1.12.2-1.0.12.jar for potential mods
+[07:46:43] [Client thread/TRACE] [FML]: Located mcmod.info file in file AttributeFix-Forge-1.12.2-1.0.12.jar
+[07:46:43] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.darkhax.attributefix.AttributeFix) - loading
+[07:46:43] [Client thread/TRACE] [FML]: Parsed dependency info for attributefix: Requirements: [] After:[] Before:[]
+[07:46:43] [Client thread/DEBUG] [FML]: Examining file Hwyla-1.8.26-B41_1.12.2.jar for potential mods
+[07:46:43] [Client thread/TRACE] [FML]: Located mcmod.info file in file Hwyla-1.8.26-B41_1.12.2.jar
+[07:46:43] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mcp.mobius.waila.Waila) - loading
+[07:46:43] [Client thread/TRACE] [FML]: Parsed dependency info for waila: Requirements: [] After:[] Before:[]
+[07:46:43] [Client thread/DEBUG] [FML]: Examining file jei_1.12.2-4.16.1.1013.jar for potential mods
+[07:46:43] [Client thread/TRACE] [FML]: Located mcmod.info file in file jei_1.12.2-4.16.1.1013.jar
+[07:46:43] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mezz.jei.JustEnoughItems) - loading
+[07:46:43] [Client thread/TRACE] [FML]: Parsed dependency info for jei: Requirements: [forge@[14.23.5.2816,)] After:[forge@[14.23.5.2816,)] Before:[]
+[07:46:43] [Client thread/DEBUG] [FML]: Examining file mymod-1.1.0.3.jar for potential mods
+[07:46:43] [Client thread/TRACE] [FML]: Located mcmod.info file in file mymod-1.1.0.3.jar
+[07:46:43] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.example.mymod.MyMod) - loading
+[07:46:43] [Client thread/TRACE] [FML]: Parsed dependency info for mymod: Requirements: [] After:[] Before:[]
+[07:46:43] [Client thread/DEBUG] [FML]: Examining file overloadedarmorbar-1.0.4g.jar for potential mods
+[07:46:43] [Client thread/TRACE] [FML]: Located mcmod.info file in file overloadedarmorbar-1.0.4g.jar
+[07:46:43] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (locusway.overpoweredarmorbar.OverpoweredArmorBar) - loading
+[07:46:43] [Client thread/TRACE] [FML]: Parsed dependency info for overpoweredarmorbar: Requirements: [] After:[] Before:[]
+[07:46:43] [Client thread/DEBUG] [FML]: Examining file toughnessbar-2.4.jar for potential mods
+[07:46:43] [Client thread/TRACE] [FML]: Located mcmod.info file in file toughnessbar-2.4.jar
+[07:46:43] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.tfar.toughnessbar.ToughnessBar) - loading
+[07:46:43] [Client thread/TRACE] [FML]: Parsed dependency info for toughnessbar: Requirements: [] After:[] Before:[]
+[07:46:43] [Client thread/DEBUG] [FML]: Examining file WailaHarvestability-mc1.12-1.1.12.jar for potential mods
+[07:46:43] [Client thread/TRACE] [FML]: Located mcmod.info file in file WailaHarvestability-mc1.12-1.1.12.jar
+[07:46:43] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (squeek.wailaharvestability.ModWailaHarvestability) - loading
+[07:46:43] [Client thread/TRACE] [FML]: Parsed dependency info for wailaharvestability: Requirements: [] After:[tconstruct] Before:[]
+[07:46:43] [Client thread/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
+[07:46:43] [Client thread/DEBUG] [FML]: Found API mcp.mobius.waila.api (owned by Waila providing WailaAPI) embedded in waila
+[07:46:43] [Client thread/DEBUG] [FML]: Found API mezz.jei.api (owned by jei providing JustEnoughItemsAPI) embedded in jei
+[07:46:43] [Client thread/DEBUG] [FML]: Creating API container dummy for API JustEnoughItemsAPI: owner: jei, dependents: []
+[07:46:43] [Client thread/DEBUG] [FML]: Creating API container dummy for API WailaAPI: owner: Waila, dependents: [waila]
+[07:46:43] [Client thread/TRACE] [FML]: Received a system property request ''
+[07:46:43] [Client thread/TRACE] [FML]: System property request managing the state of 0 mods
+[07:46:43] [Client thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[07:46:44] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[07:46:44] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[07:46:44] [Client thread/DEBUG] [FML]: Enabling mod aoa3
+[07:46:44] [Client thread/DEBUG] [FML]: Enabling mod attributefix
+[07:46:44] [Client thread/DEBUG] [FML]: Mod Attribute Fix is missing a pack.mcmeta file, substituting a dummy one
+[07:46:44] [Client thread/DEBUG] [FML]: Enabling mod waila
+[07:46:44] [Client thread/DEBUG] [FML]: Mod Waila is missing a pack.mcmeta file, substituting a dummy one
+[07:46:44] [Client thread/DEBUG] [FML]: Enabling mod jei
+[07:46:44] [Client thread/DEBUG] [FML]: Enabling mod mymod
+[07:46:44] [Client thread/DEBUG] [FML]: Enabling mod overpoweredarmorbar
+[07:46:44] [Client thread/DEBUG] [FML]: Mod Overloaded Armor Bar is missing a pack.mcmeta file, substituting a dummy one
+[07:46:44] [Client thread/DEBUG] [FML]: Enabling mod toughnessbar
+[07:46:44] [Client thread/DEBUG] [FML]: Enabling mod wailaharvestability
+[07:46:44] [Client thread/DEBUG] [FML]: Mod Waila Harvestability is missing a pack.mcmeta file, substituting a dummy one
+[07:46:44] [Client thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[07:46:44] [Client thread/TRACE] [FML]: All mod requirements are satisfied
+[07:46:44] [Client thread/TRACE] [FML]: Sorting mods into an ordered list
+[07:46:44] [Client thread/TRACE] [FML]: Mod sorting completed successfully
+[07:46:44] [Client thread/DEBUG] [FML]: Mod sorting data
+[07:46:44] [Client thread/DEBUG] [FML]: 	aoa3(Advent Of Ascension:3.3.6): AoA3-3.3.6.jar (required-after:forge@[14.23.5.2846,);)
+[07:46:44] [Client thread/DEBUG] [FML]: 	attributefix(Attribute Fix:1.0.12): AttributeFix-Forge-1.12.2-1.0.12.jar ()
+[07:46:44] [Client thread/DEBUG] [FML]: 	WailaAPI(API: WailaAPI:1.3): Hwyla-1.8.26-B41_1.12.2.jar ()
+[07:46:44] [Client thread/DEBUG] [FML]: 	waila(Waila:1.8.26): Hwyla-1.8.26-B41_1.12.2.jar ()
+[07:46:44] [Client thread/DEBUG] [FML]: 	jei(Just Enough Items:4.16.1.1013): jei_1.12.2-4.16.1.1013.jar (required-after:forge@[14.23.5.2816,);)
+[07:46:44] [Client thread/DEBUG] [FML]: 	mymod(Pyroxene Mod:1.1.0.3): mymod-1.1.0.3.jar ()
+[07:46:44] [Client thread/DEBUG] [FML]: 	overpoweredarmorbar(Overloaded Armor Bar:@VERSION@): overloadedarmorbar-1.0.4g.jar ()
+[07:46:44] [Client thread/DEBUG] [FML]: 	toughnessbar(Toughness bar:@VERSION@): toughnessbar-2.4.jar ()
+[07:46:44] [Client thread/DEBUG] [FML]: 	wailaharvestability(Waila Harvestability:1.1.12): WailaHarvestability-mc1.12-1.1.12.jar (after:tconstruct;)
+[07:46:44] [Client thread/DEBUG] [FML]: 	JustEnoughItemsAPI(API: JustEnoughItemsAPI:4.13.0): jei_1.12.2-4.16.1.1013.jar ()
+[07:46:44] [Client thread/DEBUG] [FML]: Loading @Config anotation data
+[07:46:44] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
+[07:46:44] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
+[07:46:44] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.003s
+[07:46:44] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
+[07:46:44] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
+[07:46:44] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[07:46:44] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
+[07:46:44] [Client thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
+[07:46:44] [Client thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[07:46:44] [Client thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
+[07:46:44] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aoa3, attributefix, waila, jei, mymod, overpoweredarmorbar, toughnessbar, wailaharvestability] at CLIENT
+[07:46:44] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aoa3, attributefix, waila, jei, mymod, overpoweredarmorbar, toughnessbar, wailaharvestability] at SERVER
+[07:46:44] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
+[07:46:44] [Client thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.697s
+[07:46:44] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
+[07:46:44] [Client thread/DEBUG] [forge]: Loading Vanilla annotations: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@415c790e
+[07:46:44] [Client thread/DEBUG] [forge]: Preloading CrashReport Classes
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$5
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$5
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8
+[07:46:44] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[07:46:45] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[07:46:45] [Client thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
+[07:46:45] [Client thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
+[07:46:45] [Client thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2847)
+[07:46:45] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[07:46:45] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
+[07:46:45] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.219s
+[07:46:45] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod aoa3
+[07:46:45] [Client thread/TRACE] [FML]: Mod aoa3 is using network checker : Accepting version 3.3.6
+[07:46:45] [Client thread/TRACE] [FML]: Testing mod aoa3 to verify it accepts its own version in a remote connection
+[07:46:45] [Client thread/TRACE] [FML]: The mod aoa3 accepts its own version (3.3.6)
+[07:46:45] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into aoa3
+[07:46:45] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for aoa3
+[07:46:45] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.ToolRegister for mod aoa3
+[07:46:45] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.ToolRegister
+[07:46:45] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.EnchantmentsRegister for mod aoa3
+[07:46:45] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.EnchantmentsRegister
+[07:46:45] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.EntityRegister for mod aoa3
+[07:46:45] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.EntityRegister
+[07:46:45] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.ArmourRegister for mod aoa3
+[07:46:45] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.ArmourRegister
+[07:46:45] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.BiomeRegister for mod aoa3
+[07:46:45] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.BiomeRegister
+[07:46:45] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.block.generation.ores.OverworldOre for mod aoa3
+[07:46:45] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.block.generation.ores.OverworldOre
+[07:46:45] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.DimensionRegister for mod aoa3
+[07:46:45] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.DimensionRegister
+[07:46:45] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.SoundsRegister for mod aoa3
+[07:46:45] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.SoundsRegister
+[07:46:45] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.client.render.entities.EntityRenders for mod aoa3
+[07:46:56] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.client.render.entities.EntityRenders
+[07:46:56] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.BlockRegister for mod aoa3
+[07:47:00] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.BlockRegister
+[07:47:00] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.ItemRegister for mod aoa3
+[07:47:02] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.ItemRegister
+[07:47:02] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for net.tslat.aoa3.common.registration.WeaponRegister for mod aoa3
+[07:47:02] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class net.tslat.aoa3.common.registration.WeaponRegister
+[07:47:02] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into aoa3 for type INSTANCE
+[07:47:04] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod aoa3
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Construction - Advent Of Ascension took 19.132s
+[07:47:04] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod attributefix
+[07:47:04] [Client thread/TRACE] [FML]: Mod attributefix is using network checker : Accepting version 1.0.12
+[07:47:04] [Client thread/TRACE] [FML]: Testing mod attributefix to verify it accepts its own version in a remote connection
+[07:47:04] [Client thread/TRACE] [FML]: The mod attributefix accepts its own version (1.0.12)
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into attributefix
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for attributefix
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into attributefix for type INSTANCE
+[07:47:04] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod attributefix
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Construction - Attribute Fix took 0.037s
+[07:47:04] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod waila
+[07:47:04] [Client thread/TRACE] [FML]: Mod waila is using network checker : No network checking performed
+[07:47:04] [Client thread/TRACE] [FML]: Testing mod waila to verify it accepts its own version in a remote connection
+[07:47:04] [Client thread/TRACE] [FML]: The mod waila accepts its own version (1.8.26)
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into waila
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for waila
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.handlers.NetworkHandler for mod waila
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.handlers.NetworkHandler
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.client.KeyEvent for mod waila
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.client.KeyEvent
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.overlay.WailaTickHandler for mod waila
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.overlay.WailaTickHandler
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.handlers.VanillaTooltipHandler for mod waila
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.handlers.VanillaTooltipHandler
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mcp.mobius.waila.overlay.DecoratorRenderer for mod waila
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mcp.mobius.waila.overlay.DecoratorRenderer
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into waila for type INSTANCE
+[07:47:04] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod waila
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Construction - Waila took 0.142s
+[07:47:04] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod jei
+[07:47:04] [Client thread/TRACE] [FML]: Mod jei is using network checker : Invoking method checkModLists
+[07:47:04] [Client thread/TRACE] [FML]: Testing mod jei to verify it accepts its own version in a remote connection
+[07:47:04] [Client thread/TRACE] [FML]: The mod jei accepts its own version (4.16.1.1013)
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into jei
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for mezz.jei.input.MouseHelper for mod jei
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class mezz.jei.input.MouseHelper
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into jei for type INSTANCE
+[07:47:04] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod jei
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Construction - Just Enough Items took 0.122s
+[07:47:04] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mymod
+[07:47:04] [Client thread/TRACE] [FML]: Mod mymod is using network checker : Accepting version 1.1.0.3
+[07:47:04] [Client thread/TRACE] [FML]: Testing mod mymod to verify it accepts its own version in a remote connection
+[07:47:04] [Client thread/TRACE] [FML]: The mod mymod accepts its own version (1.1.0.3)
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into mymod
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for mymod
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.example.mymod.init.ModBlocks for mod mymod
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.example.mymod.init.ModBlocks
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.example.mymod.init.ModTools for mod mymod
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.example.mymod.init.ModTools
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.example.mymod.init.ModItems for mod mymod
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.example.mymod.init.ModItems
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.example.mymod.init.ModArmor for mod mymod
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.example.mymod.init.ModArmor
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into mymod for type INSTANCE
+[07:47:04] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mymod
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Construction - Pyroxene Mod took 0.253s
+[07:47:04] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod overpoweredarmorbar
+[07:47:04] [Client thread/TRACE] [FML]: Mod overpoweredarmorbar is using network checker : Accepting version @VERSION@
+[07:47:04] [Client thread/TRACE] [FML]: Testing mod overpoweredarmorbar to verify it accepts its own version in a remote connection
+[07:47:04] [Client thread/TRACE] [FML]: The mod overpoweredarmorbar accepts its own version (@VERSION@)
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into overpoweredarmorbar
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for overpoweredarmorbar
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for locusway.overpoweredarmorbar.ModConfig$EventConfigChanged for mod overpoweredarmorbar
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class locusway.overpoweredarmorbar.ModConfig$EventConfigChanged
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for locusway.overpoweredarmorbar.proxy.ClientProxy for mod overpoweredarmorbar
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class locusway.overpoweredarmorbar.proxy.ClientProxy
+[07:47:04] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for locusway.overpoweredarmorbar.proxy.CommonProxy for mod overpoweredarmorbar
+[07:47:04] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class locusway.overpoweredarmorbar.proxy.CommonProxy
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into overpoweredarmorbar for type INSTANCE
+[07:47:04] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod overpoweredarmorbar
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Construction - Overloaded Armor Bar took 0.030s
+[07:47:04] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod toughnessbar
+[07:47:04] [Client thread/TRACE] [FML]: Mod toughnessbar is using network checker : Accepting version @VERSION@
+[07:47:04] [Client thread/TRACE] [FML]: Testing mod toughnessbar to verify it accepts its own version in a remote connection
+[07:47:04] [Client thread/TRACE] [FML]: The mod toughnessbar accepts its own version (@VERSION@)
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into toughnessbar
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for toughnessbar
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into toughnessbar for type INSTANCE
+[07:47:04] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod toughnessbar
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Construction - Toughness bar took 0.030s
+[07:47:04] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod wailaharvestability
+[07:47:04] [Client thread/TRACE] [FML]: Mod wailaharvestability is using network checker : Accepting version 1.1.12
+[07:47:04] [Client thread/TRACE] [FML]: Testing mod wailaharvestability to verify it accepts its own version in a remote connection
+[07:47:04] [Client thread/TRACE] [FML]: The mod wailaharvestability accepts its own version (1.1.12)
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into wailaharvestability
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for wailaharvestability
+[07:47:04] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into wailaharvestability for type INSTANCE
+[07:47:04] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod wailaharvestability
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Construction - Waila Harvestability took 0.011s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Finished: Construction took 20.675s
+[07:47:04] [Client thread/DEBUG] [FML]: Mod signature data
+[07:47:04] [Client thread/DEBUG] [FML]:  	Valid Signatures:
+[07:47:04] [Client thread/DEBUG] [FML]: 		(8bddeac148843f40e0b9f69201be2f4b3071700d) aoa3	(Advent Of Ascension	3.3.6)	AoA3-3.3.6.jar
+[07:47:04] [Client thread/DEBUG] [FML]:  	Missing Signatures:
+[07:47:04] [Client thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[07:47:04] [Client thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[07:47:04] [Client thread/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.5.2847-universal.jar
+[07:47:04] [Client thread/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2847)	forge-1.12.2-14.23.5.2847-universal.jar
+[07:47:04] [Client thread/DEBUG] [FML]: 		attributefix	(Attribute Fix	1.0.12)	AttributeFix-Forge-1.12.2-1.0.12.jar
+[07:47:04] [Client thread/DEBUG] [FML]: 		waila	(Waila	1.8.26)	Hwyla-1.8.26-B41_1.12.2.jar
+[07:47:04] [Client thread/DEBUG] [FML]: 		jei	(Just Enough Items	4.16.1.1013)	jei_1.12.2-4.16.1.1013.jar
+[07:47:04] [Client thread/DEBUG] [FML]: 		mymod	(Pyroxene Mod	1.1.0.3)	mymod-1.1.0.3.jar
+[07:47:04] [Client thread/DEBUG] [FML]: 		overpoweredarmorbar	(Overloaded Armor Bar	@VERSION@)	overloadedarmorbar-1.0.4g.jar
+[07:47:04] [Client thread/DEBUG] [FML]: 		toughnessbar	(Toughness bar	@VERSION@)	toughnessbar-2.4.jar
+[07:47:04] [Client thread/DEBUG] [FML]: 		wailaharvestability	(Waila Harvestability	1.1.12)	WailaHarvestability-mc1.12-1.1.12.jar
+[07:47:04] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advent Of Ascension, FMLFileResourcePack:Attribute Fix, FMLFileResourcePack:Waila, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Pyroxene Mod, FMLFileResourcePack:Overloaded Armor Bar, FMLFileResourcePack:Toughness bar, FMLFileResourcePack:Waila Harvestability
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Default took 0.009s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.003s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.003s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Advent Of Ascension took 0.055s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Attribute Fix took 0.000s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Waila took 0.001s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Just Enough Items took 0.002s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Pyroxene Mod took 0.001s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Overloaded Armor Bar took 0.000s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Toughness bar took 0.000s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Waila Harvestability took 0.000s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Finished: Reloading - LanguageManager took 0.100s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Reloading listeners took 0.101s
+[07:47:04] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resources took 0.176s
+[07:47:05] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[07:47:05] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[07:47:05] [Client thread/DEBUG] [FML]: Mod Attribute Fix is missing a pack.mcmeta file, substituting a dummy one
+[07:47:05] [Client thread/DEBUG] [FML]: Mod Waila is missing a pack.mcmeta file, substituting a dummy one
+[07:47:05] [Client thread/DEBUG] [FML]: Mod Overloaded Armor Bar is missing a pack.mcmeta file, substituting a dummy one
+[07:47:05] [Client thread/DEBUG] [FML]: Mod Waila Harvestability is missing a pack.mcmeta file, substituting a dummy one
+[07:47:05] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[07:47:05] [Client thread/INFO] [FML]: Found 4555 ObjectHolder annotations
+[07:47:05] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[07:47:05] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[07:47:05] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
+[07:47:05] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
+[07:47:05] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.001s
+[07:47:05] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
+[07:47:05] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
+[07:47:05] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[07:47:05] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
+[07:47:05] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
+[07:47:05] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[07:47:05] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
+[07:47:05] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[07:47:05] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
+[07:47:05] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.181s
+[07:47:05] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod aoa3
+[07:47:05] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[07:47:05] [Client thread/INFO] [aoa3]: Beginning fluid registration
+[07:47:08] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
 {
   "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
   "promos": {
@@ -731,28 +731,9 @@ Details:
     "1.21.11-recommended": "61.1.0"
   }
 }
-[07:33:55] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
-[07:33:56] [Forge Version Check/INFO] [forge.VersionCheck]: [aoa3] Starting version check at https://gist.github.com/Tslat/e7afe2448fe39a695acd45764824b762/raw/
-[07:33:58] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod aoa3
-[07:33:58] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Advent Of Ascension took 5.130s
-[07:33:58] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod attributefix
-[07:33:58] [Client thread/DEBUG] [AttributeFix]: Modified maxHealth. Min 1.401298464324817E-45 -> 1.401298464324817E-45 and Max 1.7976931348623157E308 -> 65536.0
-[07:33:58] [Client thread/DEBUG] [AttributeFix]: Modified followRange. Min 0.0 -> 0.0 and Max 2048.0 -> 65536.0
-[07:33:58] [Client thread/DEBUG] [AttributeFix]: Modified knockbackResistance. Min 0.0 -> 0.0 and Max 1.0 -> 65536.0
-[07:33:58] [Client thread/DEBUG] [AttributeFix]: Modified movementSpeed. Min 0.0 -> 0.0 and Max 1024.0 -> 65536.0
-[07:33:58] [Client thread/DEBUG] [AttributeFix]: Modified flyingSpeed. Min 0.0 -> 0.0 and Max 1024.0 -> 65536.0
-[07:33:58] [Client thread/DEBUG] [AttributeFix]: Modified attackDamage. Min 0.0 -> 0.0 and Max 2048.0 -> 65536.0
-[07:33:58] [Client thread/DEBUG] [AttributeFix]: Modified attackSpeed. Min 0.0 -> 0.0 and Max 1024.0 -> 65536.0
-[07:33:58] [Client thread/DEBUG] [AttributeFix]: Modified armor. Min 0.0 -> 0.0 and Max 30.0 -> 65536.0
-[07:33:58] [Client thread/DEBUG] [AttributeFix]: Modified armorToughness. Min 0.0 -> 0.0 and Max 20.0 -> 65536.0
-[07:33:58] [Client thread/DEBUG] [AttributeFix]: Modified luck. Min -1024.0 -> -1024.0 and Max 1024.0 -> 65536.0
-[07:33:58] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod attributefix
-[07:33:58] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Attribute Fix took 0.013s
-[07:33:58] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod waila
-[07:33:58] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod waila
-[07:33:58] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Waila took 0.102s
-[07:33:58] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod jei
-[07:33:58] [Forge Version Check/DEBUG] [forge.VersionCheck]: [aoa3] Received version check data:
+[07:47:08] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[07:47:08] [Forge Version Check/INFO] [forge.VersionCheck]: [aoa3] Starting version check at https://gist.github.com/Tslat/e7afe2448fe39a695acd45764824b762/raw/
+[07:47:12] [Forge Version Check/DEBUG] [forge.VersionCheck]: [aoa3] Received version check data:
 {
   "homepage": "https://adventofascension.gamepedia.com/Download",
   "1.12.2": {
@@ -894,7 +875,7 @@ Details:
     "1.20.4-recommended": "3.7.6"
   }
 }
-[07:33:58] [Forge Version Check/DEBUG] [forge.VersionCheck]: Failed to process update information
+[07:47:12] [Forge Version Check/DEBUG] [forge.VersionCheck]: Failed to process update information
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 120 column 13 path $.
 	at com.google.gson.Gson.fromJson(Gson.java:902) ~[Gson.class:?]
 	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
@@ -912,22 +893,39 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 1
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[MapTypeAdapterFactory$Adapter.class:?]
 	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
 	... 5 more
-[07:33:58] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod jei
-[07:33:58] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Just Enough Items took 0.199s
-[07:33:58] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mymod
-[07:33:58] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:func_179870_a:553]: ---- Minecraft Crash Report ----
-// Hi. I'm Minecraft, and I'm a crashaholic.
+[07:47:13] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod aoa3
+[07:47:13] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Advent Of Ascension took 8.345s
+[07:47:13] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod attributefix
+[07:47:13] [Client thread/DEBUG] [AttributeFix]: Modified maxHealth. Min 1.401298464324817E-45 -> 1.401298464324817E-45 and Max 1.7976931348623157E308 -> 65536.0
+[07:47:13] [Client thread/DEBUG] [AttributeFix]: Modified followRange. Min 0.0 -> 0.0 and Max 2048.0 -> 65536.0
+[07:47:13] [Client thread/DEBUG] [AttributeFix]: Modified knockbackResistance. Min 0.0 -> 0.0 and Max 1.0 -> 65536.0
+[07:47:13] [Client thread/DEBUG] [AttributeFix]: Modified movementSpeed. Min 0.0 -> 0.0 and Max 1024.0 -> 65536.0
+[07:47:13] [Client thread/DEBUG] [AttributeFix]: Modified flyingSpeed. Min 0.0 -> 0.0 and Max 1024.0 -> 65536.0
+[07:47:13] [Client thread/DEBUG] [AttributeFix]: Modified attackDamage. Min 0.0 -> 0.0 and Max 2048.0 -> 65536.0
+[07:47:13] [Client thread/DEBUG] [AttributeFix]: Modified attackSpeed. Min 0.0 -> 0.0 and Max 1024.0 -> 65536.0
+[07:47:13] [Client thread/DEBUG] [AttributeFix]: Modified armor. Min 0.0 -> 0.0 and Max 30.0 -> 65536.0
+[07:47:13] [Client thread/DEBUG] [AttributeFix]: Modified armorToughness. Min 0.0 -> 0.0 and Max 20.0 -> 65536.0
+[07:47:13] [Client thread/DEBUG] [AttributeFix]: Modified luck. Min -1024.0 -> -1024.0 and Max 1024.0 -> 65536.0
+[07:47:13] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod attributefix
+[07:47:13] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Attribute Fix took 0.072s
+[07:47:13] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod waila
+[07:47:14] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod waila
+[07:47:14] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Waila took 0.101s
+[07:47:14] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod jei
+[07:47:14] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod jei
+[07:47:14] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Just Enough Items took 0.186s
+[07:47:14] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mymod
+[07:47:14] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:func_179870_a:553]: ---- Minecraft Crash Report ----
+// Shall we play a game?
 
-Time: 2/22/26 7:33 AM
+Time: 2/22/26 7:47 AM
 Description: There was a severe problem during mod loading that has caused the game to fail
 
 net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Pyroxene Mod (mymod)
-Caused by: java.lang.IllegalArgumentException: Cannot get property PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[down, up, north, south, west, east]} as it does not exist in BlockStateContainer{block=minecraft:air, properties=[]}
-	at net.minecraft.block.state.BlockStateContainer$StateImplementation.func_177229_b(BlockStateContainer.java:201)
-	at com.example.mymod.blocks.BlockPyroxeneFenceGate.func_176201_c(BlockPyroxeneFenceGate.java:82)
-	at net.minecraft.block.Block.setHarvestLevel(Block.java:2046)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+	at net.minecraft.block.Block.setHarvestLevel(Block.java:2047)
 	at net.minecraft.block.Block.setHarvestLevel(Block.java:2028)
-	at com.example.mymod.blocks.BlockPyroxeneFenceGate.<init>(BlockPyroxeneFenceGate.java:37)
+	at com.example.mymod.blocks.BlockPyroxeneFenceGate.<init>(BlockPyroxeneFenceGate.java:38)
 	at com.example.mymod.init.ModBlocks.init(ModBlocks.java:105)
 	at com.example.mymod.MyMod.preInit(MyMod.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -984,7 +982,7 @@ Details:
 	Operating System: Windows 8.1 (amd64) version 6.3
 	Java Version: 1.8.0_51, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 925707880 bytes (882 MB) / 3551002624 bytes (3386 MB) up to 11453595648 bytes (10923 MB)
+	Memory: 2097901224 bytes (2000 MB) / 3402104832 bytes (3244 MB) up to 11453595648 bytes (10923 MB)
 	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx12288m
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: MCP 9.42 Powered by Forge 14.23.5.2847 12 mods loaded, 12 mods active
@@ -1000,11 +998,11 @@ Details:
 	| LCH   | attributefix        | 1.0.12       | AttributeFix-Forge-1.12.2-1.0.12.jar    | None                                     |
 	| LCH   | waila               | 1.8.26       | Hwyla-1.8.26-B41_1.12.2.jar             | None                                     |
 	| LCH   | jei                 | 4.16.1.1013  | jei_1.12.2-4.16.1.1013.jar              | None                                     |
-	| LCE   | mymod               | 1.1.0.2      | mymod-1.1.0.2.jar                       | None                                     |
+	| LCE   | mymod               | 1.1.0.3      | mymod-1.1.0.3.jar                       | None                                     |
 	| LC    | overpoweredarmorbar | @VERSION@    | overloadedarmorbar-1.0.4g.jar           | None                                     |
 	| LC    | toughnessbar        | @VERSION@    | toughnessbar-2.4.jar                    | None                                     |
 	| LC    | wailaharvestability | 1.1.12       | WailaHarvestability-mc1.12-1.1.12.jar   | None                                     |
 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 32.0.101.6987' Renderer: 'Intel(R) UHD Graphics'
-[07:33:58] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:func_179870_a:553]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\crash-reports\crash-2026-02-22_07.33.58-client.txt
+[07:47:14] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:func_179870_a:553]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\crash-reports\crash-2026-02-22_07.47.14-client.txt

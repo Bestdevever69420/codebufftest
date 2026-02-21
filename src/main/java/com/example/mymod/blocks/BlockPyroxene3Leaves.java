@@ -30,7 +30,7 @@ public class BlockPyroxene3Leaves extends BlockLeaves {
         setCreativeTab(MyMod.CREATIVE_TAB);
         setHardness(0.2F);
         setResistance(0.2F);
-        setHarvestLevel("axe", 0);
+        // setHarvestLevel("axe", 0); // Removed - caused crash
         this.setDefaultState(this.blockState.getBaseState().withProperty(CHECK_DECAY, Boolean.valueOf(true)).withProperty(DECAYABLE, Boolean.valueOf(true)));
     }
 

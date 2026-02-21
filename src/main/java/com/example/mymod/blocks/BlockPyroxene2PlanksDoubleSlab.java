@@ -11,6 +11,6 @@ public class BlockPyroxene2PlanksDoubleSlab extends Block {
         setUnlocalizedName(MyMod.MODID + ".pyroxene2_planks_double_slab");
         setHardness(2.0F);
         setResistance(5.0F);
-        setHarvestLevel("axe", 0);
+        // setHarvestLevel("axe", 0); // Removed - caused crash
     }
 }

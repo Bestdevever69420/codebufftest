@@ -11,7 +11,7 @@ public class BlockPyroxene3Wood extends BlockRotatedPillar {
         setUnlocalizedName(MyMod.MODID + ".pyroxene3_wood");
         setHardness(4.0F);
         setResistance(8.0F);
-        setHarvestLevel("axe", 1);
+        // setHarvestLevel("axe", 0); // Removed - caused crash
         setCreativeTab(MyMod.CREATIVE_TAB);
     }
 }

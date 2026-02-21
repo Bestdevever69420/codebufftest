@@ -13,6 +13,6 @@ public class BlockPyroxeneFence extends BlockFence {
         setCreativeTab(MyMod.CREATIVE_TAB);
         setHardness(2.0F);
         setResistance(5.0F);
-        setHarvestLevel("axe", 0);
+        // setHarvestLevel("axe", 0); // Removed - caused crash
     }
 }

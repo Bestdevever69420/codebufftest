@@ -11,7 +11,7 @@ public class BlockPyroxenePlanks extends Block {
         setUnlocalizedName(MyMod.MODID + ".pyroxene_planks");
         setHardness(4.0F);
         setResistance(8.0F);
-        setHarvestLevel("axe", 1);
+        // setHarvestLevel("axe", 0); // Removed - caused crash
         setCreativeTab(MyMod.CREATIVE_TAB);
     }
 }

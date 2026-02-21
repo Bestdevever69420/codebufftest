@@ -39,7 +39,7 @@ public class BlockPyroxeneFurnace extends Block {
         this.isBurning = isBurning;
         setHardness(3.5F);
         setResistance(5.0F);
-        setHarvestLevel("pickaxe", 2);
+        // setHarvestLevel("pickaxe", 0); // Removed - caused crash
         setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 
         if (isBurning) {

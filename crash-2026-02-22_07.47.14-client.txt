@@ -1,16 +1,14 @@
 ---- Minecraft Crash Report ----
-// Don't do that.
+// Don't be sad, have a hug! <3
 
-Time: 2/22/26 7:33 AM
+Time: 2/22/26 7:47 AM
 Description: There was a severe problem during mod loading that has caused the game to fail
 
 net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Pyroxene Mod (mymod)
-Caused by: java.lang.IllegalArgumentException: Cannot get property PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[down, up, north, south, west, east]} as it does not exist in BlockStateContainer{block=minecraft:air, properties=[]}
-	at net.minecraft.block.state.BlockStateContainer$StateImplementation.func_177229_b(BlockStateContainer.java:201)
-	at com.example.mymod.blocks.BlockPyroxeneFenceGate.func_176201_c(BlockPyroxeneFenceGate.java:82)
-	at net.minecraft.block.Block.setHarvestLevel(Block.java:2046)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+	at net.minecraft.block.Block.setHarvestLevel(Block.java:2047)
 	at net.minecraft.block.Block.setHarvestLevel(Block.java:2028)
-	at com.example.mymod.blocks.BlockPyroxeneFenceGate.<init>(BlockPyroxeneFenceGate.java:37)
+	at com.example.mymod.blocks.BlockPyroxeneFenceGate.<init>(BlockPyroxeneFenceGate.java:38)
 	at com.example.mymod.init.ModBlocks.init(ModBlocks.java:105)
 	at com.example.mymod.MyMod.preInit(MyMod.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -67,7 +65,7 @@ Details:
 	Operating System: Windows 8.1 (amd64) version 6.3
 	Java Version: 1.8.0_51, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 925707880 bytes (882 MB) / 3551002624 bytes (3386 MB) up to 11453595648 bytes (10923 MB)
+	Memory: 2097901224 bytes (2000 MB) / 3402104832 bytes (3244 MB) up to 11453595648 bytes (10923 MB)
 	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx12288m
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: MCP 9.42 Powered by Forge 14.23.5.2847 12 mods loaded, 12 mods active
@@ -83,7 +81,7 @@ Details:
 	| LCH   | attributefix        | 1.0.12       | AttributeFix-Forge-1.12.2-1.0.12.jar    | None                                     |
 	| LCH   | waila               | 1.8.26       | Hwyla-1.8.26-B41_1.12.2.jar             | None                                     |
 	| LCH   | jei                 | 4.16.1.1013  | jei_1.12.2-4.16.1.1013.jar              | None                                     |
-	| LCE   | mymod               | 1.1.0.2      | mymod-1.1.0.2.jar                       | None                                     |
+	| LCE   | mymod               | 1.1.0.3      | mymod-1.1.0.3.jar                       | None                                     |
 	| LC    | overpoweredarmorbar | @VERSION@    | overloadedarmorbar-1.0.4g.jar           | None                                     |
 	| LC    | toughnessbar        | @VERSION@    | toughnessbar-2.4.jar                    | None                                     |
 	| LC    | wailaharvestability | 1.1.12       | WailaHarvestability-mc1.12-1.1.12.jar   | None                                     |

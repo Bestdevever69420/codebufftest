@@ -11,7 +11,7 @@ public class BlockPyroxeneLamp extends Block {
         setUnlocalizedName(MyMod.MODID + ".pyroxene_lamp");
         setHardness(0.3F);
         setResistance(1.5F);
-        setHarvestLevel("pickaxe", 0);
+        // setHarvestLevel("pickaxe", 0); // Removed - caused crash
         setLightLevel(1.0F);
         setCreativeTab(MyMod.CREATIVE_TAB);
     }
