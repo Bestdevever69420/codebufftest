@@ -20,7 +20,14 @@ public class WorldGenPyroxeneOre implements IWorldGenerator {
     }
 
     private void generateOverworld(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
-        generateOre(ModBlocks.pyroxene_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 64, random.nextInt(5) + 3, 8);
+        // Pyroxene1 (crystal pink) ore - generates at lower depths
+        generateOre(ModBlocks.pyroxene_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 32, random.nextInt(4) + 2, 6);
+        
+        // Pyroxene2 (orange/amber) ore - generates at mid depths
+        generateOre(ModBlocks.pyroxene2_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 3, 8);
+        
+        // Pyroxene3 (cyan) ore - generates at mid-high depths
+        generateOre(ModBlocks.pyroxene3_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 32, 80, random.nextInt(4) + 2, 6);
     }
 
     private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances) {

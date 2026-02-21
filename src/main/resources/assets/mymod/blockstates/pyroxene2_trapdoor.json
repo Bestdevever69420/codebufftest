@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=north,half=bottom,open=false": { "model": "mymod:pyroxene2_trapdoor_bottom" },
+        "facing=north,half=bottom,open=true": { "model": "mymod:pyroxene2_trapdoor_open" },
+        "facing=north,half=top,open=false": { "model": "mymod:pyroxene2_trapdoor_top" },
+        "facing=north,half=top,open=true": { "model": "mymod:pyroxene2_trapdoor_open" },
+        "inventory": { "model": "mymod:pyroxene2_trapdoor_bottom" }
+    }
+}

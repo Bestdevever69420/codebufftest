@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_gate",
+    "textures": {
+        "texture": "mymod:blocks/pyroxene_planks"
+    }
+}

@@ -19,6 +19,84 @@ tile.mymod.pyroxene_stairs.name=Pyroxene Stairs
 tile.mymod.pyroxene_lamp.name=Pyroxene Lamp
 tile.mymod.pyroxene_furnace.name=Pyroxene Furnace
 tile.mymod.pyroxene_furnace_on.name=Pyroxene Furnace
+tile.mymod.pyroxene_wood.name=Pyroxene Wood
+tile.mymod.pyroxene_planks.name=Pyroxene Planks
+tile.mymod.pyroxene_leaves.name=Pyroxene Leaves
+tile.mymod.pyroxene_sapling.name=Pyroxene Sapling
+tile.mymod.pyroxene_planks_stairs.name=Pyroxene Planks Stairs
+tile.mymod.pyroxene_planks_slab.name=Pyroxene Planks Slab
+tile.mymod.pyroxene_fence.name=Pyroxene Fence
+tile.mymod.pyroxene_fence_gate.name=Pyroxene Fence Gate
+tile.mymod.pyroxene_door.name=Pyroxene Door
+tile.mymod.pyroxene_trapdoor.name=Pyroxene Trapdoor
+tile.mymod.pyroxene_button.name=Pyroxene Button
+tile.mymod.pyroxene_pressure_plate.name=Pyroxene Pressure Plate
+
+# Pyroxene2 - Orange/Amber themed (different from Pyroxene1 crystal pink)
+item.mymod.pyroxene2_ingot.name=Pyroxene2 Ingot
+item.mymod.pyroxene2_pickaxe.name=Pyroxene2 Pickaxe
+item.mymod.pyroxene2_axe.name=Pyroxene2 Axe
+item.mymod.pyroxene2_sword.name=Pyroxene2 Sword
+item.mymod.pyroxene2_shovel.name=Pyroxene2 Shovel
+item.mymod.pyroxene2_hoe.name=Pyroxene2 Hoe
+item.mymod.pyroxene2_helmet.name=Pyroxene2 Helmet
+item.mymod.pyroxene2_chestplate.name=Pyroxene2 Chestplate
+item.mymod.pyroxene2_leggings.name=Pyroxene2 Leggings
+item.mymod.pyroxene2_boots.name=Pyroxene2 Boots
+tile.mymod.pyroxene2_block.name=Pyroxene2 Block
+tile.mymod.pyroxene2_ore.name=Pyroxene2 Ore
+tile.mymod.pyroxene2_bricks.name=Pyroxene2 Bricks
+tile.mymod.pyroxene2_wood.name=Pyroxene2 Wood
+tile.mymod.pyroxene2_planks.name=Pyroxene2 Planks
+tile.mymod.pyroxene2_leaves.name=Pyroxene2 Leaves
+tile.mymod.pyroxene2_sapling.name=Pyroxene2 Sapling
+tile.mymod.pyroxene2_planks_stairs.name=Pyroxene2 Planks Stairs
+tile.mymod.pyroxene2_planks_slab.name=Pyroxene2 Planks Slab
+tile.mymod.pyroxene2_fence.name=Pyroxene2 Fence
+tile.mymod.pyroxene2_fence_gate.name=Pyroxene2 Fence Gate
+tile.mymod.pyroxene2_door.name=Pyroxene2 Door
+tile.mymod.pyroxene2_trapdoor.name=Pyroxene2 Trapdoor
+tile.mymod.pyroxene2_button.name=Pyroxene2 Button
+tile.mymod.pyroxene2_pressure_plate.name=Pyroxene2 Pressure Plate
+
+# Pyroxene3 - Cyan/Teal themed (balanced material)
+item.mymod.pyroxene3_ingot.name=Pyroxene3 Ingot
+item.mymod.pyroxene3_pickaxe.name=Pyroxene3 Pickaxe
+item.mymod.pyroxene3_axe.name=Pyroxene3 Axe
+item.mymod.pyroxene3_sword.name=Pyroxene3 Sword
+item.mymod.pyroxene3_shovel.name=Pyroxene3 Shovel
+item.mymod.pyroxene3_hoe.name=Pyroxene3 Hoe
+item.mymod.pyroxene3_helmet.name=Pyroxene3 Helmet
+item.mymod.pyroxene3_chestplate.name=Pyroxene3 Chestplate
+item.mymod.pyroxene3_leggings.name=Pyroxene3 Leggings
+item.mymod.pyroxene3_boots.name=Pyroxene3 Boots
+tile.mymod.pyroxene3_block.name=Pyroxene3 Block
+tile.mymod.pyroxene3_ore.name=Pyroxene3 Ore
+tile.mymod.pyroxene3_bricks.name=Pyroxene3 Bricks
+tile.mymod.pyroxene3_wood.name=Pyroxene3 Wood
+tile.mymod.pyroxene3_planks.name=Pyroxene3 Planks
+tile.mymod.pyroxene3_leaves.name=Pyroxene3 Leaves
+tile.mymod.pyroxene3_sapling.name=Pyroxene3 Sapling
+tile.mymod.pyroxene3_planks_stairs.name=Pyroxene3 Planks Stairs
+tile.mymod.pyroxene3_planks_slab.name=Pyroxene3 Planks Slab
+tile.mymod.pyroxene3_fence.name=Pyroxene3 Fence
+tile.mymod.pyroxene3_fence_gate.name=Pyroxene3 Fence Gate
+tile.mymod.pyroxene3_door.name=Pyroxene3 Door
+tile.mymod.pyroxene3_trapdoor.name=Pyroxene3 Trapdoor
+tile.mymod.pyroxene3_button.name=Pyroxene3 Button
+tile.mymod.pyroxene3_pressure_plate.name=Pyroxene3 Pressure Plate
+
+item.mymod.pyroxene_boat.name=Pyroxene Boat
+item.mymod.pyroxene2_boat.name=Pyroxene2 Boat
+item.mymod.pyroxene3_boat.name=Pyroxene3 Boat
+
+biome.pyroxene_forest=Pyroxene Forest
+biome.pyroxene_desert=Pyroxene Desert
+biome.pyroxene_ocean=Pyroxene Ocean
+biome.pyroxene_mountains=Pyroxene Mountains
+
+entity.mymod.pyroxene_golem.name=Pyroxene Golem
+entity.mymod.crystal_bat.name=Crystal Bat
 
 # Creative tab
 itemGroup.mymod=Pyroxene

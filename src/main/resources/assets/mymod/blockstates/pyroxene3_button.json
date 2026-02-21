@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "facing=north,powered=false": { "model": "mymod:pyroxene3_button" },
+        "facing=north,powered=true": { "model": "mymod:pyroxene3_button_pressed" },
+        "inventory": { "model": "mymod:pyroxene3_button" }
+    }
+}

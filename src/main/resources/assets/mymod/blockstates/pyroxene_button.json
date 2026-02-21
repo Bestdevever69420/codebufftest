@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "facing=up,powered=false": { "model": "mymod:pyroxene_button" },
+        "facing=down,powered=false": { "model": "mymod:pyroxene_button", "x": 180 },
+        "facing=north,powered=false": { "model": "mymod:pyroxene_button", "x": 90 },
+        "facing=south,powered=false": { "model": "mymod:pyroxene_button", "x": -90 },
+        "facing=east,powered=false": { "model": "mymod:pyroxene_button", "y": -90, "x": 90 },
+        "facing=west,powered=false": { "model": "mymod:pyroxene_button", "y": 90, "x": 90 },
+        "facing=up,powered=true": { "model": "mymod:pyroxene_button_pressed" },
+        "facing=down,powered=true": { "model": "mymod:pyroxene_button_pressed", "x": 180 },
+        "facing=north,powered=true": { "model": "mymod:pyroxene_button_pressed", "x": 90 },
+        "facing=south,powered=true": { "model": "mymod:pyroxene_button_pressed", "x": -90 },
+        "facing=east,powered=true": { "model": "mymod:pyroxene_button_pressed", "y": -90, "x": 90 },
+        "facing=west,powered=true": { "model": "mymod:pyroxene_button_pressed", "y": 90, "x": 90 }
+    }
+}

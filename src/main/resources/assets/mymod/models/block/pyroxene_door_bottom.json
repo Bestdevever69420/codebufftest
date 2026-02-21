@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "mymod:blocks/pyroxene_door_bottom",
+        "top": "mymod:blocks/pyroxene_door_top"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "mymod:pyroxene3_pressure_plate" },
+        "powered=true": { "model": "mymod:pyroxene3_pressure_plate_down" }
+    }
+}

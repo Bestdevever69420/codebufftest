@@ -1,0 +1,6 @@
+{
+    "parent": "block/button_pressed",
+    "textures": {
+        "texture": "mymod:blocks/pyroxene_planks"
+    }
+}

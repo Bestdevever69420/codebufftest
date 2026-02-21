@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north,inventory": { "model": "mymod:pyroxene2_fence_post" },
+        "facing=south,inventory": { "model": "mymod:pyroxene2_fence_post" },
+        "facing=east,inventory": { "model": "mymod:pyroxene2_fence_post" },
+        "facing=west,inventory": { "model": "mymod:pyroxene2_fence_post" }
+    }
+}

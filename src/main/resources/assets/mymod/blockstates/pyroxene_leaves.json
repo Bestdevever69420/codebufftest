@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "check_decay=true,decayable=true": { "model": "mymod:pyroxene_leaves" },
+        "check_decay=true,decayable=false": { "model": "mymod:pyroxene_leaves" },
+        "check_decay=false,decayable=true": { "model": "mymod:pyroxene_leaves" },
+        "check_decay=false,decayable=false": { "model": "mymod:pyroxene_leaves" }
+    }
+}

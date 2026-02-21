@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "mymod:pyroxene2_planks_slab" },
+        "half=top": { "model": "mymod:pyroxene2_planks_slab_top" }
+    }
+}
