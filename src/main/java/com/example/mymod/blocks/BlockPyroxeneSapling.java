@@ -2,8 +2,9 @@ package com.example.mymod.blocks;
 
 import com.example.mymod.MyMod;
 import com.example.mymod.world.WorldGenPyroxeneTree;
-import net.minecraft.block.BlockSapling;
+import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
@@ -13,12 +14,15 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 
 import java.util.Random;
 
-public class BlockPyroxeneSapling extends BlockSapling implements IGrowable {
+public class BlockPyroxeneSapling extends BlockBush implements IGrowable {
+
+    public static final net.minecraft.block.properties.PropertyInteger STAGE = net.minecraft.block.properties.PropertyInteger.create("stage", 0, 1);
 
     public BlockPyroxeneSapling() {
         setRegistryName("pyroxene_sapling");
         setUnlocalizedName(MyMod.MODID + ".pyroxene_sapling");
         setCreativeTab(MyMod.CREATIVE_TAB);
+        setSoundType(SoundType.PLANT);
         this.setDefaultState(this.blockState.getBaseState().withProperty(STAGE, Integer.valueOf(0)));
     }
 
