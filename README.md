@@ -1,26 +1,48 @@
-# ⛏️ My Mod — Pyroxene
+# ⛏️ Pyroxene Mod
 
-A **Minecraft Forge 1.12.2** mod that adds **Pyroxene**, a fiery volcanic material slightly stronger than diamond but with lower durability.
+A **Minecraft Forge 1.12.2** mod that adds the **Pyroxene** material pack — three unique volcanic crystal materials with distinct themes: Pyroxene (crystal pink), Pyroxene2 (orange/amber), and Pyroxene3 (cyan/teal).
 
 ## 🔥 Features
 
+### Three Material Tiers
+
+| Material | Theme | Color | Special Features |
+|----------|-------|-------|------------------|
+| **Pyroxene** | Crystal Pink | #FF69B4 | Original volcanic material, fastest smelting |
+| **Pyroxene2** | Orange/Amber | #FFA500 | Orange-themed variant |
+| **Pyroxene3** | Cyan/Teal | #00CED1 | Balanced material variant |
+
 ### Ore Generation
-- **Pyroxene Ore** spawns in the Overworld between Y 5–15, in veins of 3–7 blocks
-- Drops ingots directly when mined; supports Fortune enchantment
-- Can also be smelted in a furnace for 1.0 XP
+- **Pyroxene Ore** — Pink crystal ore, spawns Y=0-64 in Overworld
+- **Pyroxene2 Ore** — Orange ore variant
+- **Pyroxene3 Ore** — Cyan ore variant
+- All ores drop ingots directly when mined (supports Fortune)
+- Can also be smelted in a furnace for XP
 
-### Building Blocks
-| Block | Recipe |
-|-------|--------|
-| Pyroxene Block | 9 Ingots (3×3) |
-| Pyroxene Bricks | 4 Blocks (2×2) → 4 Bricks |
-| Pyroxene Pillar | 2 Blocks (stacked) → 2 Pillars |
-| Pyroxene Slab | 3 Blocks (row) → 6 Slabs |
-| Pyroxene Stairs | 6 Blocks (stair pattern) → 4 Stairs |
-| Pyroxene Lamp | 1 Block + 4 Glowstone Dust → 4 Lamps |
+### Building Blocks (Each Material)
+| Block Type | Pyroxene | Pyroxene2 | Pyroxene3 |
+|------------|----------|-----------|-----------|
+| Ore | ✅ | ✅ | ✅ |
+| Block | ✅ | ✅ | ✅ |
+| Bricks | ✅ | ✅ | ✅ |
+| Wood | ✅ | ✅ | ✅ |
+| Planks | ✅ | ✅ | ✅ |
+| Leaves | ✅ | ✅ | ✅ |
+| Sapling | ✅ | ✅ | ✅ |
+| Stairs | ✅ | ✅ | ✅ |
+| Slab | ✅ | ✅ | ✅ |
+| Fence | ✅ | ✅ | ✅ |
+| Fence Gate | ✅ | ✅ | ✅ |
+| Door | ✅ | ✅ | ✅ |
+| Trapdoor | ✅ | ✅ | ✅ |
+| Button | ✅ | ✅ | ✅ |
+| Pressure Plate | ✅ | ✅ | ✅ |
+| Pillar | ✅ | ❌ | ❌ |
+| Lamp | ✅ | ❌ | ❌ |
+| Furnace | ✅ | ❌ | ❌ |
 
-### Tools
-Pyroxene tools are crafted with standard vanilla patterns using **Pyroxene Ingots** and **Sticks**.
+### Tools (Each Material)
+Crafted with standard vanilla patterns using respective ingots.
 
 | Tool | Attack Damage | Efficiency |
 |------|--------------|------------|
@@ -30,68 +52,56 @@ Pyroxene tools are crafted with standard vanilla patterns using **Pyroxene Ingot
 | Shovel | 5.5 | 10.0 |
 | Hoe | — | — |
 
-### Armor
-Full Pyroxene armor set (Helmet, Chestplate, Leggings, Boots) crafted with standard vanilla patterns using **Pyroxene Ingots**.
+### Armor (Each Material)
+Full armor set per material (Helmet, Chestplate, Leggings, Boots).
 
-### Pyroxene Furnace
-- Smelts items **2× faster** than the vanilla furnace
-- Crafted with 8 Pyroxene Blocks in a furnace pattern
+### Boats
+- Pyroxene Boat (Pink)
+- Pyroxene2 Boat (Orange)
+- Pyroxene3 Boat (Cyan)
 
-### Storage Conversions
-- 9 Ingots ↔ 1 Block
-- 9 Nuggets ↔ 1 Ingot
+### Pyroxene Furnace (Original Material Only)
+- Smelts items **2× faster** than vanilla furnace
+- Crafted with 8 Pyroxene Blocks
 
-### Creative Tab
-All Pyroxene items are grouped under a dedicated creative tab.
+### Custom Biomes
+| Biome | Type | Features |
+|-------|------|----------|
+| Pyroxene Forest | Warm | Forest with pyroxene theme |
+| Pyroxene Desert | Desert | Desert with pyroxene theme |
+| Pyroxene Ocean | Ocean | Ocean with pyroxene theme |
+| Pyroxene Mountains | Icy | Mountain with pyroxene theme |
+
+### World Generation
+- Custom ore generation for all three ore types
+- Mineshaft generation
+
+### Dungeon Loot
+- Pyroxene ores and treasure added to dungeon loot tables
 
 ## 📦 Installation (Players)
 
 1. Install [Minecraft Forge for 1.12.2](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html)
-2. Download the latest `mymod-1.0.0.jar` from [Releases](https://github.com/Bestdevever69420/codebufftest/releases)
+2. Download the latest release from [Releases](https://github.com/Bestdevever69420/codebufftest/releases)
 3. Place the JAR in your `.minecraft/mods/` folder
 4. Launch Minecraft with the Forge profile
+
+**Note:** This mod requires **AoA3** (Advent of Ascension) for full mob content.
 
 ## 🛠️ Building from Source
 
 ### Requirements
 - **Java 8** (JDK 1.8) — required for Minecraft Forge 1.12.2 modding
-- Gradle is included via the wrapper (no separate install needed)
-
-### Installing Java 8
-
-```bash
-# Ubuntu/Debian
-sudo apt install openjdk-8-jdk
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-```
-
-On Windows, download [Adoptium Temurin JDK 8](https://adoptium.net/temurin/releases/?version=8) and set `JAVA_HOME` to the install directory.
+- Gradle is included via the wrapper
 
 ### Build
 
 ```bash
-# First time only — set up the Forge development workspace
-./gradlew setupDecompWorkspace
-
 # Build the mod JAR
 ./gradlew build
 ```
 
-The compiled mod JAR will be in `build/libs/mymod-1.0.0.jar`.
-
-## 🧑‍💻 Development
-
-```bash
-# Set up IDE workspace (optional)
-./gradlew eclipse    # For Eclipse
-./gradlew idea       # For IntelliJ IDEA (or just open build.gradle as project)
-
-# Run Minecraft client with the mod loaded
-./gradlew runClient
-
-# Run Minecraft server with the mod loaded
-./gradlew runServer
-```
+The compiled mod JAR will be in `build/libs/`.
 
 ## 📁 Project Structure
 
@@ -99,22 +109,29 @@ The compiled mod JAR will be in `build/libs/mymod-1.0.0.jar`.
 src/main/java/com/example/mymod/
 ├── MyMod.java              # Main mod entry point
 ├── MyModCreativeTab.java   # Creative inventory tab
-├── GuiHandler.java         # GUI handler for custom furnace
-├── armor/                  # Pyroxene armor items
+├── GuiHandler.java         # GUI handler
+├── armor/                  # Armor items (Pyroxene, Pyroxene2, Pyroxene3)
 ├── blocks/                 # Block classes, furnace tile entity & GUI
-├── init/                   # Registration classes (ModBlocks, ModItems, ModTools, ModArmor, ModRecipes)
-├── items/                  # Pyroxene Ingot & Nugget
-├── tools/                  # Tool items & material definitions
-└── world/                  # Ore world generation
+├── entity/                 # Boat entities and renderers
+├── init/                   # Registration classes
+├── items/                  # Ingots & Nuggets
+├── tools/                  # Tool items & materials
+└── world/                 # Biome & world generation
 
 src/main/resources/
 ├── assets/mymod/
-│   ├── blockstates/        # Block state definitions
+│   ├── blockstates/        # 52 block state definitions
 │   ├── lang/en_us.lang     # English translations
 │   └── models/             # Block & item models
 ├── mcmod.info              # Mod metadata
 └── pack.mcmeta             # Resource pack metadata
 ```
+
+## 🧪 Version History
+
+- **v1.1.0** — Major update: Added Pyroxene2 and Pyroxene3 materials, custom biomes, mineshaft world generation, boats, and AoA3 dependency
+- **v1.0.1** — Fix furnace arrow bug, adjust ore spawn
+- **v1.0.0** — Initial release
 
 ## 👤 Author
 
