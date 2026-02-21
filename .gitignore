@@ -12,6 +12,7 @@ run/
 
 # Dependencies (jar files)
 *.jar
+*:Zone.Identifier
 
 # AoA3 source (reference only, not for commit)
 AoA3-source/
