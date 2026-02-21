@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemSlab;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -21,7 +22,8 @@ public class ModBlocks {
     public static Block pyroxene_ore;
     public static Block pyroxene_bricks;
     public static Block pyroxene_pillar;
-    public static Block pyroxene_slab;
+    public static BlockPyroxeneHalfSlab pyroxene_slab;
+    public static BlockPyroxeneDoubleSlab pyroxene_double_slab;
     public static Block pyroxene_stairs;
     public static Block pyroxene_lamp;
     public static BlockPyroxeneFurnace pyroxene_furnace;
@@ -32,7 +34,8 @@ public class ModBlocks {
         pyroxene_ore = new BlockPyroxeneOre();
         pyroxene_bricks = new BlockPyroxeneBricks();
         pyroxene_pillar = new BlockPyroxenePillar();
-        pyroxene_slab = new BlockPyroxeneSlab();
+        pyroxene_slab = new BlockPyroxeneHalfSlab();
+        pyroxene_double_slab = new BlockPyroxeneDoubleSlab();
         pyroxene_stairs = new BlockPyroxeneStairs(pyroxene_block.getDefaultState());
         pyroxene_lamp = new BlockPyroxeneLamp();
         pyroxene_furnace = new BlockPyroxeneFurnace(false);
@@ -46,7 +49,7 @@ public class ModBlocks {
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry().registerAll(
             pyroxene_block, pyroxene_ore,
-            pyroxene_bricks, pyroxene_pillar, pyroxene_slab, pyroxene_stairs, pyroxene_lamp,
+            pyroxene_bricks, pyroxene_pillar, pyroxene_slab, pyroxene_double_slab, pyroxene_stairs, pyroxene_lamp,
             pyroxene_furnace, pyroxene_furnace_on
         );
     }
@@ -58,7 +61,7 @@ public class ModBlocks {
             createItemBlock(pyroxene_ore),
             createItemBlock(pyroxene_bricks),
             createItemBlock(pyroxene_pillar),
-            createItemBlock(pyroxene_slab),
+            new ItemSlab(pyroxene_slab, pyroxene_slab, pyroxene_double_slab).setRegistryName(pyroxene_slab.getRegistryName()),
             createItemBlock(pyroxene_stairs),
             createItemBlock(pyroxene_lamp),
             createItemBlock(pyroxene_furnace)

@@ -1,5 +1,15 @@
 {
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "bottom": "mymod:blocks/pyroxene_block",
+            "top": "mymod:blocks/pyroxene_block",
+            "side": "mymod:blocks/pyroxene_block",
+            "particle": "mymod:blocks/pyroxene_block"
+        }
+    },
     "variants": {
-        "normal": { "model": "mymod:pyroxene_slab" }
+        "half=bottom,variant=default": { "model": "half_slab" },
+        "half=top,variant=default": { "model": "upper_slab" }
     }
 }
