@@ -1,15 +1,17 @@
 ---- Minecraft Crash Report ----
-// Uh... Did I do that?
+// Don't do that.
 
-Time: 2/22/26 7:10 AM
+Time: 2/22/26 7:33 AM
 Description: There was a severe problem during mod loading that has caused the game to fail
 
 net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Pyroxene Mod (mymod)
-Caused by: java.lang.IllegalArgumentException: Cannot set property PropertyEnum{name=type, clazz=class net.minecraft.block.BlockPlanks$EnumType, values=[oak, spruce, birch, jungle, acacia, dark_oak]} as it does not exist in BlockStateContainer{block=minecraft:air, properties=[stage]}
-	at net.minecraft.block.state.BlockStateContainer$StateImplementation.func_177226_a(BlockStateContainer.java:215)
-	at net.minecraft.block.BlockSapling.<init>(BlockSapling.java:36)
-	at com.example.mymod.blocks.BlockPyroxeneSapling.<init>(BlockPyroxeneSapling.java:18)
-	at com.example.mymod.init.ModBlocks.init(ModBlocks.java:100)
+Caused by: java.lang.IllegalArgumentException: Cannot get property PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[down, up, north, south, west, east]} as it does not exist in BlockStateContainer{block=minecraft:air, properties=[]}
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.func_177229_b(BlockStateContainer.java:201)
+	at com.example.mymod.blocks.BlockPyroxeneFenceGate.func_176201_c(BlockPyroxeneFenceGate.java:82)
+	at net.minecraft.block.Block.setHarvestLevel(Block.java:2046)
+	at net.minecraft.block.Block.setHarvestLevel(Block.java:2028)
+	at com.example.mymod.blocks.BlockPyroxeneFenceGate.<init>(BlockPyroxeneFenceGate.java:37)
+	at com.example.mymod.init.ModBlocks.init(ModBlocks.java:105)
 	at com.example.mymod.MyMod.preInit(MyMod.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -65,7 +67,7 @@ Details:
 	Operating System: Windows 8.1 (amd64) version 6.3
 	Java Version: 1.8.0_51, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 2337582168 bytes (2229 MB) / 3899129856 bytes (3718 MB) up to 11453595648 bytes (10923 MB)
+	Memory: 925707880 bytes (882 MB) / 3551002624 bytes (3386 MB) up to 11453595648 bytes (10923 MB)
 	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx12288m
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: MCP 9.42 Powered by Forge 14.23.5.2847 12 mods loaded, 12 mods active
@@ -81,7 +83,7 @@ Details:
 	| LCH   | attributefix        | 1.0.12       | AttributeFix-Forge-1.12.2-1.0.12.jar    | None                                     |
 	| LCH   | waila               | 1.8.26       | Hwyla-1.8.26-B41_1.12.2.jar             | None                                     |
 	| LCH   | jei                 | 4.16.1.1013  | jei_1.12.2-4.16.1.1013.jar              | None                                     |
-	| LCE   | mymod               | 1.1.0.1      | mymod-1.1.0.1.jar                       | None                                     |
+	| LCE   | mymod               | 1.1.0.2      | mymod-1.1.0.2.jar                       | None                                     |
 	| LC    | overpoweredarmorbar | @VERSION@    | overloadedarmorbar-1.0.4g.jar           | None                                     |
 	| LC    | toughnessbar        | @VERSION@    | toughnessbar-2.4.jar                    | None                                     |
 	| LC    | wailaharvestability | 1.1.12       | WailaHarvestability-mc1.12-1.1.12.jar   | None                                     |

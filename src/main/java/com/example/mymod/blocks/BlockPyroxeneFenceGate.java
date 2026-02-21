@@ -6,6 +6,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.properties.PropertyDirection;
+import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.BlockRenderLayer;
@@ -91,5 +92,10 @@ public class BlockPyroxeneFenceGate extends Block {
         return getDefaultState()
             .withProperty(FACING, EnumFacing.getHorizontal(meta & 3))
             .withProperty(IS_OPEN, (meta & 4) != 0);
+    }
+
+    @Override
+    protected BlockStateContainer createBlockState() {
+        return new BlockStateContainer(this, FACING, IS_OPEN);
     }
 }

@@ -1,69 +1,71 @@
-[07:10:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[07:10:08] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[07:10:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[07:10:09] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
-[07:10:09] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\java\jre-legacy
-[07:10:10] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
-[07:10:10] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
-[07:10:10] [main/INFO] [FML]: Searching C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods for mods
-[07:10:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:10:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[07:10:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:10:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:10:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[07:10:12] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
-[07:10:12] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[07:10:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[07:10:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[07:10:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[07:10:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[07:10:13] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[07:10:15] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Greatgamer69420
-[07:10:20] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[07:10:20] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[07:10:23] [Client thread/INFO] [FML]: -- System Details --
+[07:33:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[07:33:01] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[07:33:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[07:33:01] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[07:33:01] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\java\jre-legacy
+[07:33:02] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[07:33:02] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[07:33:02] [main/INFO] [FML]: Searching C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods for mods
+[07:33:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:33:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[07:33:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:33:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:33:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:33:04] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[07:33:04] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[07:33:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:33:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[07:33:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[07:33:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[07:33:05] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[07:33:07] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Greatgamer69420
+[07:33:12] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[07:33:12] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[07:33:15] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 8.1 (amd64) version 6.3
 	Java Version: 1.8.0_51, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 1064633304 bytes (1015 MB) / 1192755200 bytes (1137 MB) up to 11453595648 bytes (10923 MB)
+	Memory: 1169789600 bytes (1115 MB) / 1280311296 bytes (1221 MB) up to 11453595648 bytes (10923 MB)
 	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx12288m
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 32.0.101.6987' Renderer: 'Intel(R) UHD Graphics'
-[07:10:23] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
-[07:10:23] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[07:10:23] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[07:10:23] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[07:10:23] [Client thread/INFO] [FML]: Searching C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods for mods
-[07:10:26] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 286096200 nanos
-[07:10:28] [Client thread/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
-[07:10:28] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aoa3, attributefix, waila, jei, mymod, overpoweredarmorbar, toughnessbar, wailaharvestability] at CLIENT
-[07:10:28] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aoa3, attributefix, waila, jei, mymod, overpoweredarmorbar, toughnessbar, wailaharvestability] at SERVER
-[07:10:50] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advent Of Ascension, FMLFileResourcePack:Attribute Fix, FMLFileResourcePack:Waila, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Pyroxene Mod, FMLFileResourcePack:Overloaded Armor Bar, FMLFileResourcePack:Toughness bar, FMLFileResourcePack:Waila Harvestability
-[07:10:50] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[07:10:51] [Client thread/INFO] [FML]: Found 4555 ObjectHolder annotations
-[07:10:51] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[07:10:51] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[07:10:51] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[07:10:51] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[07:10:51] [Client thread/INFO] [aoa3]: Beginning fluid registration
-[07:10:54] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
-[07:10:54] [Forge Version Check/INFO] [forge.VersionCheck]: [aoa3] Starting version check at https://gist.github.com/Tslat/e7afe2448fe39a695acd45764824b762/raw/
-[07:10:59] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:func_179870_a:553]: ---- Minecraft Crash Report ----
-// My bad.
+[07:33:15] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[07:33:15] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[07:33:15] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[07:33:15] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[07:33:16] [Client thread/INFO] [FML]: Searching C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\mods for mods
+[07:33:18] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 413306800 nanos
+[07:33:18] [Client thread/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
+[07:33:19] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aoa3, attributefix, waila, jei, mymod, overpoweredarmorbar, toughnessbar, wailaharvestability] at CLIENT
+[07:33:19] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aoa3, attributefix, waila, jei, mymod, overpoweredarmorbar, toughnessbar, wailaharvestability] at SERVER
+[07:33:52] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advent Of Ascension, FMLFileResourcePack:Attribute Fix, FMLFileResourcePack:Waila, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Pyroxene Mod, FMLFileResourcePack:Overloaded Armor Bar, FMLFileResourcePack:Toughness bar, FMLFileResourcePack:Waila Harvestability
+[07:33:52] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[07:33:52] [Client thread/INFO] [FML]: Found 4555 ObjectHolder annotations
+[07:33:52] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[07:33:52] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[07:33:52] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[07:33:52] [Client thread/INFO] [aoa3]: Beginning fluid registration
+[07:33:52] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[07:33:55] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[07:33:56] [Forge Version Check/INFO] [forge.VersionCheck]: [aoa3] Starting version check at https://gist.github.com/Tslat/e7afe2448fe39a695acd45764824b762/raw/
+[07:33:58] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:func_179870_a:553]: ---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
 
-Time: 2/22/26 7:10 AM
+Time: 2/22/26 7:33 AM
 Description: There was a severe problem during mod loading that has caused the game to fail
 
 net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Pyroxene Mod (mymod)
-Caused by: java.lang.IllegalArgumentException: Cannot set property PropertyEnum{name=type, clazz=class net.minecraft.block.BlockPlanks$EnumType, values=[oak, spruce, birch, jungle, acacia, dark_oak]} as it does not exist in BlockStateContainer{block=minecraft:air, properties=[stage]}
-	at net.minecraft.block.state.BlockStateContainer$StateImplementation.func_177226_a(BlockStateContainer.java:215)
-	at net.minecraft.block.BlockSapling.<init>(BlockSapling.java:36)
-	at com.example.mymod.blocks.BlockPyroxeneSapling.<init>(BlockPyroxeneSapling.java:18)
-	at com.example.mymod.init.ModBlocks.init(ModBlocks.java:100)
+Caused by: java.lang.IllegalArgumentException: Cannot get property PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[down, up, north, south, west, east]} as it does not exist in BlockStateContainer{block=minecraft:air, properties=[]}
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.func_177229_b(BlockStateContainer.java:201)
+	at com.example.mymod.blocks.BlockPyroxeneFenceGate.func_176201_c(BlockPyroxeneFenceGate.java:82)
+	at net.minecraft.block.Block.setHarvestLevel(Block.java:2046)
+	at net.minecraft.block.Block.setHarvestLevel(Block.java:2028)
+	at com.example.mymod.blocks.BlockPyroxeneFenceGate.<init>(BlockPyroxeneFenceGate.java:37)
+	at com.example.mymod.init.ModBlocks.init(ModBlocks.java:105)
 	at com.example.mymod.MyMod.preInit(MyMod.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -119,7 +121,7 @@ Details:
 	Operating System: Windows 8.1 (amd64) version 6.3
 	Java Version: 1.8.0_51, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 2337582168 bytes (2229 MB) / 3899129856 bytes (3718 MB) up to 11453595648 bytes (10923 MB)
+	Memory: 925707880 bytes (882 MB) / 3551002624 bytes (3386 MB) up to 11453595648 bytes (10923 MB)
 	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx12288m
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: MCP 9.42 Powered by Forge 14.23.5.2847 12 mods loaded, 12 mods active
@@ -135,11 +137,11 @@ Details:
 	| LCH   | attributefix        | 1.0.12       | AttributeFix-Forge-1.12.2-1.0.12.jar    | None                                     |
 	| LCH   | waila               | 1.8.26       | Hwyla-1.8.26-B41_1.12.2.jar             | None                                     |
 	| LCH   | jei                 | 4.16.1.1013  | jei_1.12.2-4.16.1.1013.jar              | None                                     |
-	| LCE   | mymod               | 1.1.0.1      | mymod-1.1.0.1.jar                       | None                                     |
+	| LCE   | mymod               | 1.1.0.2      | mymod-1.1.0.2.jar                       | None                                     |
 	| LC    | overpoweredarmorbar | @VERSION@    | overloadedarmorbar-1.0.4g.jar           | None                                     |
 	| LC    | toughnessbar        | @VERSION@    | toughnessbar-2.4.jar                    | None                                     |
 	| LC    | wailaharvestability | 1.1.12       | WailaHarvestability-mc1.12-1.1.12.jar   | None                                     |
 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 32.0.101.6987' Renderer: 'Intel(R) UHD Graphics'
-[07:10:59] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:func_179870_a:553]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\crash-reports\crash-2026-02-22_07.10.59-client.txt
+[07:33:58] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:func_179870_a:553]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Edward Anderson\AppData\Roaming\PrismLauncher\instances\PYROXINE TEST\minecraft\crash-reports\crash-2026-02-22_07.33.58-client.txt
