@@ -1,16 +1,16 @@
 [
 {
   "modid": "mymod",
-  "name": "My Mod",
-  "description": "Adds Pyroxene material pack with ore generation, tools, armor, and crafting recipes. Pyroxene is a fiery volcanic material slightly stronger than diamond but with lower durability.",
+  "name": "Pyroxene Mod",
+  "description": "Adds the Pyroxene material pack — three unique volcanic crystal materials (Pyroxene, Pyroxene2, Pyroxene3) with ores, tools, armor, building blocks, boats, custom biomes, and mineshaft world generation.",
   "version": "${version}",
   "mcversion": "1.12.2",
-  "url": "",
+  "url": "https://github.com/Bestdevever69420/codebufftest",
   "updateUrl": "",
   "authorList": ["greatgamer69420"],
   "credits": "Forge",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["AoA3"]
 }
 ]
