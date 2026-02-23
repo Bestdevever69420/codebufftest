@@ -1,49 +1,27 @@
 # ⛏️ Pyroxene Mod
 
-A **Minecraft Forge 1.12.2** mod that adds the **Pyroxene** material pack — three unique volcanic crystal materials with distinct themes: Pyroxene (crystal pink), Pyroxene2 (orange/amber), and Pyroxene3 (cyan/teal).
+A **Minecraft Forge 1.12.2** mod that adds the **Pyroxene** material pack — volcanic crystal materials with mining, crafting, and exploration features.
 
 ## 🔥 Features
 
-### Three Material Tiers
+### Pyroxene Material (Pink)
+The original volcanic crystal material with the most features.
 
-| Material | Theme | Color | Special Features |
-|----------|-------|-------|------------------|
-| **Pyroxene** | Crystal Pink | #FF69B4 | Original volcanic material, fastest smelting |
-| **Pyroxene2** | Orange/Amber | #FFA500 | Orange-themed variant |
-| **Pyroxene3** | Cyan/Teal | #00CED1 | Balanced material variant |
-
-### Ore Generation
+**Ores & Blocks:**
 - **Pyroxene Ore** — Pink crystal ore, spawns Y=0-64 in Overworld
-- **Pyroxene2 Ore** — Orange ore variant
-- **Pyroxene3 Ore** — Cyan ore variant
-- All ores drop ingots directly when mined (supports Fortune)
-- Can also be smelted in a furnace for XP
+- **Pyroxene Block** — Decorative block
+- **Pyroxene Bricks** — Decorative brick block
+- **Pyroxene Pillar** — Decorative pillar block
+- **Pyroxene Wood & Planks** — Building materials
+- **Pyroxene Leaves, Sapling** — Tree-related blocks
+- **Pyroxene Stairs & Slab** — Building blocks
+- **Pyroxene Fence & Fence Gate** — Barrier blocks
+- **Pyroxene Door & Trapdoor** — Redstone-compatible blocks
+- **Pyroxene Button & Pressure Plate** — Redstone components
+- **Pyroxene Lamp** — Emits light
+- **Pyroxene Furnace** — Smelts items **2× faster** than vanilla furnace
 
-### Building Blocks (Each Material)
-| Block Type | Pyroxene | Pyroxene2 | Pyroxene3 |
-|------------|----------|-----------|-----------|
-| Ore | ✅ | ✅ | ✅ |
-| Block | ✅ | ✅ | ✅ |
-| Bricks | ✅ | ✅ | ✅ |
-| Wood | ✅ | ✅ | ✅ |
-| Planks | ✅ | ✅ | ✅ |
-| Leaves | ✅ | ✅ | ✅ |
-| Sapling | ✅ | ✅ | ✅ |
-| Stairs | ✅ | ✅ | ✅ |
-| Slab | ✅ | ✅ | ✅ |
-| Fence | ✅ | ✅ | ✅ |
-| Fence Gate | ✅ | ✅ | ✅ |
-| Door | ✅ | ✅ | ✅ |
-| Trapdoor | ✅ | ✅ | ✅ |
-| Button | ✅ | ✅ | ✅ |
-| Pressure Plate | ✅ | ✅ | ✅ |
-| Pillar | ✅ | ❌ | ❌ |
-| Lamp | ✅ | ❌ | ❌ |
-| Furnace | ✅ | ❌ | ❌ |
-
-### Tools (Each Material)
-Crafted with standard vanilla patterns using respective ingots.
-
+**Tools:**
 | Tool | Attack Damage | Efficiency |
 |------|--------------|------------|
 | Pickaxe | 5.0 | 10.0 |
@@ -52,17 +30,41 @@ Crafted with standard vanilla patterns using respective ingots.
 | Shovel | 5.5 | 10.0 |
 | Hoe | — | — |
 
-### Armor (Each Material)
-Full armor set per material (Helmet, Chestplate, Leggings, Boots).
+**Armor:**
+- Pyroxene Helmet, Chestplate, Leggings, Boots
 
-### Boats
+**Boat:**
 - Pyroxene Boat (Pink)
-- Pyroxene2 Boat (Orange)
-- Pyroxene3 Boat (Cyan)
 
-### Pyroxene Furnace (Original Material Only)
-- Smelts items **2× faster** than vanilla furnace
-- Crafted with 8 Pyroxene Blocks
+### Pyroxene2 (Orange)
+Orange-themed variant with a balanced set of blocks.
+
+**Ores & Blocks:**
+- Pyroxene2 Ore, Block, Bricks, Wood, Planks, Leaves, Sapling, Stairs, Slab, Fence, Fence Gate, Door, Trapdoor, Button, Pressure Plate
+
+**Tools:**
+- Pyroxene2 Pickaxe, Axe, Sword, Shovel, Hoe
+
+**Armor:**
+- Pyroxene2 Helmet, Chestplate, Leggings, Boots
+
+**Boat:**
+- Pyroxene2 Boat (Orange)
+
+### Pyroxene3 (Cyan)
+Cyan/teal-themed variant.
+
+**Ores & Blocks:**
+- Pyroxene3 Ore, Block, Bricks, Wood, Planks, Leaves, Sapling, Stairs, Slab, Fence, Fence Gate, Door, Trapdoor, Button, Pressure Plate
+
+**Tools:**
+- Pyroxene3 Pickaxe, Axe, Sword, Shovel, Hoe
+
+**Armor:**
+- Pyroxene3 Helmet, Chestplate, Leggings, Boots
+
+**Boat:**
+- Pyroxene3 Boat (Cyan)
 
 ### Pyroxene Tracker
 - Grants **infinite Night Vision** while in your inventory
@@ -70,6 +72,11 @@ Full armor set per material (Helmet, Chestplate, Leggings, Boots).
 - Has durability: lasts 3 minutes (180 ticks) before fading away
 - Glows when active
 - RARE rarity while active
+- **Note:** Requires AoA3 for the Charged Runium Chunk crafting ingredient
+
+### World Generation
+- **Pyroxene Ore** — Spawns Y=0-64, 8 attempts per chunk
+- Mineshaft generation with Pyroxene-themed chests
 
 ### Custom Biomes
 | Biome | Type | Features |
@@ -79,12 +86,8 @@ Full armor set per material (Helmet, Chestplate, Leggings, Boots).
 | Pyroxene Ocean | Ocean | Ocean with pyroxene theme |
 | Pyroxene Mountains | Icy | Mountain with pyroxene theme |
 
-### World Generation
-- Custom ore generation for all three ore types
-- Mineshaft generation
-
 ### Dungeon Loot
-- Pyroxene ores and treasure added to dungeon loot tables
+- Pyroxene ores and treasure added to dungeon loot tables (mineshaft, dungeon, stronghold)
 
 ## 📦 Installation (Players)
 
@@ -93,7 +96,7 @@ Full armor set per material (Helmet, Chestplate, Leggings, Boots).
 3. Place the JAR in your `.minecraft/mods/` folder
 4. Launch Minecraft with the Forge profile
 
-**Note:** This mod requires **AoA3** (Advent of Ascension) for full mob content.
+**Note:** This mod benefits from **AoA3** (Advent of Ascension) for the Pyroxene Tracker crafting recipe and additional mob content.
 
 ## 🛠️ Building from Source
 
@@ -121,13 +124,13 @@ src/main/java/com/example/mymod/
 ├── blocks/                 # Block classes, furnace tile entity & GUI
 ├── entity/                 # Boat entities and renderers
 ├── init/                   # Registration classes
-├── items/                  # Ingots & Nuggets
+├── items/                  # Ingots, nuggets, boats, tracker
 ├── tools/                  # Tool items & materials
-└── world/                 # Biome & world generation
+└── world/                  # Biome & world generation
 
 src/main/resources/
 ├── assets/mymod/
-│   ├── blockstates/        # 52 block state definitions
+│   ├── blockstates/        # Block state definitions
 │   ├── lang/en_us.lang     # English translations
 │   └── models/             # Block & item models
 ├── mcmod.info              # Mod metadata
@@ -136,10 +139,28 @@ src/main/resources/
 
 ## 🧪 Version History
 
-- **v1.1.0.1-take2** — Added Pyroxene Tracker item (grants Night Vision), dungeon loot tables, bug fixes
-- **v1.1.0** — Major update: Added Pyroxene2 and Pyroxene3 materials, custom biomes, mineshaft world generation, boats, and AoA3 dependency
-- **v1.0.1** — Fix furnace arrow bug, adjust ore spawn
+### Released Versions
+- **v1.1.0.1-take2** — Added Pyroxene Tracker item (grants Night Vision), dungeon loot tables. This is the only working build from the 1.1.0.x series that has been tested in-game.
+- **v1.0.1** — Fix furnace arrow bug, adjust ore spawn (Y=0-64, 8 attempts/chunk)
 - **v1.0.0** — Initial release
+
+### Failed 1.1.0.x Series (Not Released)
+These versions were developed but had critical issues and were never successfully released to GitHub:
+
+| Version | Date | Status | Issue |
+|---------|------|--------|-------|
+| **v1.1.0** | 22 Feb 2026, ~00:12 | Failed | Major update: Added Pyroxene2, Pyroxene3, 4 biomes, mineshaft generation, AoA3 dependency. Had multiple crash bugs on load. |
+| **v1.1.0.1** | 22 Feb 2026, ~07:08 | Failed | Attempted fix but still had crashes. |
+| **Various crash fixes** | 22 Feb 2026 | Failed | Multiple patches for ArrayIndexOutOfBoundsException, fence gate crashes, sapling crashes. |
+| **6:50pm build** | ~22 Feb 2026 | Failed | Crashed on startup - specific error unknown. |
+| **8:26pm build** | ~22 Feb 2026 | Failed | Crashing build - final attempt before reset. |
+| **5:30pm build** | 22 Feb 2026 | Failed | Was originally part of the 1.1.0.x series until it became v1.1.0.1-take2. |
+
+### Version Timeline
+- **22 Feb 2026, 9:11am** — Development begins on 1.1.0.x series
+- **22 Feb 2026, ~6:50pm** — First major crash
+- **22 Feb 2026, ~8:26pm** — Final crash, series abandoned
+- **23 Feb 2026** — v1.1.0.1-take2 created from working code
 
 ## 👤 Author
 
