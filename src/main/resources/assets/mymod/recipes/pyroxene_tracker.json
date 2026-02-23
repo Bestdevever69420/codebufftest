@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GRG",
+    "   "
+  ],
+  "key": {
+    "G": {
+      "item": "mymod:pyroxene_ingot"
+    },
+    "R": {
+      "item": "aoa3:charged_runium_chunk"
+    }
+  },
+  "result": {
+    "item": "mymod:pyroxene_tracker",
+    "count": 1
+  }
+}

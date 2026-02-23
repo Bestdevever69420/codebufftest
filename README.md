@@ -64,6 +64,13 @@ Full armor set per material (Helmet, Chestplate, Leggings, Boots).
 - Smelts items **2× faster** than vanilla furnace
 - Crafted with 8 Pyroxene Blocks
 
+### Pyroxene Tracker
+- Grants **infinite Night Vision** while in your inventory
+- Crafted with 3 Pyroxene Ingots + 1 Charged Runium Chunk (from AoA3)
+- Has durability: lasts 3 minutes (180 ticks) before fading away
+- Glows when active
+- RARE rarity while active
+
 ### Custom Biomes
 | Biome | Type | Features |
 |-------|------|----------|
@@ -129,6 +136,7 @@ src/main/resources/
 
 ## 🧪 Version History
 
+- **v1.1.0.1-take2** — Added Pyroxene Tracker item (grants Night Vision), dungeon loot tables, bug fixes
 - **v1.1.0** — Major update: Added Pyroxene2 and Pyroxene3 materials, custom biomes, mineshaft world generation, boats, and AoA3 dependency
 - **v1.0.1** — Fix furnace arrow bug, adjust ore spawn
 - **v1.0.0** — Initial release

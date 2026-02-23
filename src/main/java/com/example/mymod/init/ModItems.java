@@ -18,6 +18,7 @@ import com.example.mymod.items.ItemPyroxene2Ingot;
 import com.example.mymod.items.ItemPyroxene2Boat;
 import com.example.mymod.items.ItemPyroxene3Ingot;
 import com.example.mymod.items.ItemPyroxene3Boat;
+import com.example.mymod.items.ItemPyroxeneTracker;
 
 @Mod.EventBusSubscriber(modid = MyMod.MODID)
 public class ModItems {
@@ -28,6 +29,7 @@ public class ModItems {
     public static Item pyroxene2_boat;
     public static Item pyroxene3_ingot;
     public static Item pyroxene3_boat;
+    public static Item pyroxene_tracker;
 
     public static void init() {
         pyroxene_ingot = new ItemPyroxeneIngot();
@@ -37,11 +39,12 @@ public class ModItems {
         pyroxene2_boat = new ItemPyroxene2Boat();
         pyroxene3_ingot = new ItemPyroxene3Ingot();
         pyroxene3_boat = new ItemPyroxene3Boat();
+        pyroxene_tracker = new ItemPyroxeneTracker();
     }
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
-        event.getRegistry().registerAll(pyroxene_ingot, pyroxene_nugget, pyroxene_boat, pyroxene2_ingot, pyroxene2_boat, pyroxene3_ingot, pyroxene3_boat);
+        event.getRegistry().registerAll(pyroxene_ingot, pyroxene_nugget, pyroxene_boat, pyroxene2_ingot, pyroxene2_boat, pyroxene3_ingot, pyroxene3_boat, pyroxene_tracker);
     }
 
     @SubscribeEvent
@@ -61,6 +64,8 @@ public class ModItems {
             new ModelResourceLocation(pyroxene3_ingot.getRegistryName(), "inventory"));
         ModelLoader.setCustomModelResourceLocation(pyroxene3_boat, 0,
             new ModelResourceLocation(pyroxene3_boat.getRegistryName(), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(pyroxene_tracker, 0,
+            new ModelResourceLocation(pyroxene_tracker.getRegistryName(), "inventory"));
     }
 }
 
