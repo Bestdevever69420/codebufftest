@@ -3,7 +3,7 @@
   "modid": "mymod",
   "name": "Pyroxene Mod",
   "description": "Adds the Pyroxene material pack — three unique volcanic crystal materials (Pyroxene, Pyroxene2, Pyroxene3) with ores, tools, armor, building blocks, boats, custom biomes, and mineshaft world generation.",
-  "version": "${version}",
+  "version": "1.1.0.1-take2",
   "mcversion": "1.12.2",
   "url": "https://github.com/Bestdevever69420/codebufftest",
   "updateUrl": "",

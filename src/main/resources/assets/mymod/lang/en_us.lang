@@ -99,4 +99,6 @@ entity.mymod.pyroxene_golem.name=Pyroxene Golem
 entity.mymod.crystal_bat.name=Crystal Bat
 
 # Creative tab
+item.mymod.pyroxene_tracker.name=Pyroxene Tracker
+
 itemGroup.mymod=Pyroxene
